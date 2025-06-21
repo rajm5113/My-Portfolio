@@ -1,4 +1,3 @@
-
 import { ArrowRight, Github, Linkedin, Mail } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
@@ -17,12 +16,11 @@ export const Hero = () => {
           <div className="animate-fade-in">
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-normal text-google-gray-800 mb-6 leading-tight">
               Hello, I'm{" "}
-              <span className="font-medium">
-                <span className="text-google-blue">Your</span>{" "}
-                <span className="text-google-red">Name</span>
+              <span className="font-medium gradient-text">
+                Your Name
               </span>
             </h1>
-            <p className="text-xl sm:text-2xl text-google-gray-600 mb-4 max-w-3xl mx-auto font-light">
+            <p className="text-xl sm:text-2xl gradient-warmup mb-4 max-w-3xl mx-auto font-light">
               Student at PW IOI Institute of Innovation
             </p>
             <p className="text-lg text-google-gray-500 mb-12 max-w-2xl mx-auto leading-relaxed">

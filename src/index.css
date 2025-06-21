@@ -89,6 +89,21 @@
   }
 }
 
+/* Google-style gradient text */
+.gradient-text {
+  background: linear-gradient(90deg, #4285f4 0%, #9c27b0 25%, #e91e63 50%, #ff5722 75%, #ff9800 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.gradient-warmup {
+  background: linear-gradient(90deg, #6c7b7f 0%, #4285f4 30%, #9c27b0 60%, #e91e63 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
 /* Google-style animations */
 @keyframes fade-in {
   from {

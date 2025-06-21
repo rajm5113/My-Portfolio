@@ -1,4 +1,3 @@
-
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Code, Smartphone, BarChart, Lightbulb, Users, Zap } from "lucide-react";
 
@@ -46,10 +45,10 @@ export const Services = () => {
     <section id="services" className="py-20 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-3xl sm:text-4xl font-light text-gray-900 mb-4">
+          <h2 className="text-3xl sm:text-4xl font-light gradient-text mb-4">
             Services Offered
           </h2>
-          <div className="w-20 h-1 bg-blue-600 mx-auto mb-8"></div>
+          <div className="w-20 h-1 bg-gradient-to-r from-blue-600 to-purple-600 mx-auto mb-8"></div>
           <p className="text-lg text-gray-600 max-w-3xl mx-auto">
             Leveraging my technical expertise and business acumen to deliver comprehensive solutions 
             that bridge technology and innovation.
@@ -82,7 +81,7 @@ export const Services = () => {
 
         <div className="mt-16 text-center">
           <div className="bg-gray-50 rounded-lg p-8">
-            <h3 className="text-2xl font-light text-gray-900 mb-4">Ready to Start Your Project?</h3>
+            <h3 className="text-2xl font-light gradient-warmup mb-4">Ready to Start Your Project?</h3>
             <p className="text-gray-600 mb-6 max-w-2xl mx-auto">
               Let's discuss how I can help bring your ideas to life with innovative technology solutions 
               and strategic business insights.

@@ -1,4 +1,3 @@
-
 import { useState } from "react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
@@ -75,10 +74,10 @@ export const Projects = () => {
     <section id="projects" className="py-20 bg-gray-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-3xl sm:text-4xl font-light text-gray-900 mb-4">
+          <h2 className="text-3xl sm:text-4xl font-light gradient-text mb-4">
             Featured Projects
           </h2>
-          <div className="w-20 h-1 bg-blue-600 mx-auto mb-8"></div>
+          <div className="w-20 h-1 bg-gradient-to-r from-blue-600 to-purple-600 mx-auto mb-8"></div>
         </div>
 
         {/* Filter Buttons */}

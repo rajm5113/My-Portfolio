@@ -1,4 +1,3 @@
-
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Code, Palette, BarChart, Lightbulb } from "lucide-react";
@@ -66,15 +65,15 @@ export const Skills = () => {
     <section id="skills" className="py-20 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-3xl sm:text-4xl font-light text-gray-900 mb-4">
+          <h2 className="text-3xl sm:text-4xl font-light gradient-text mb-4">
             Skills & Certifications
           </h2>
-          <div className="w-20 h-1 bg-blue-600 mx-auto mb-8"></div>
+          <div className="w-20 h-1 bg-gradient-to-r from-blue-600 to-purple-600 mx-auto mb-8"></div>
         </div>
 
         {/* Skills Section */}
         <div className="mb-16">
-          <h3 className="text-2xl font-light text-gray-900 mb-8 text-center">Technical Expertise</h3>
+          <h3 className="text-2xl font-light gradient-warmup mb-8 text-center">Technical Expertise</h3>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             {skillCategories.map((category, index) => (
               <Card key={index} className="border-0 shadow-md hover:shadow-lg transition-shadow">
@@ -104,7 +103,7 @@ export const Skills = () => {
 
         {/* Certifications Section */}
         <div>
-          <h3 className="text-2xl font-light text-gray-900 mb-8 text-center">Certifications</h3>
+          <h3 className="text-2xl font-light gradient-warmup mb-8 text-center">Certifications</h3>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             {certifications.map((cert, index) => (
               <Card key={index} className="border-0 shadow-md hover:shadow-lg transition-shadow">

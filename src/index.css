@@ -104,6 +104,81 @@
   background-clip: text;
 }
 
+/* Dynamic gradient hover effects */
+.gradient-hover-bg {
+  position: relative;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.gradient-hover-bg::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(90deg, 
+    rgba(66, 133, 244, 0.1) 0%, 
+    rgba(156, 39, 176, 0.1) 25%, 
+    rgba(233, 30, 99, 0.1) 50%, 
+    rgba(255, 87, 34, 0.1) 75%, 
+    rgba(255, 152, 0, 0.1) 100%
+  );
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  z-index: 0;
+}
+
+.gradient-hover-bg:hover::before {
+  opacity: 1;
+}
+
+.gradient-hover-bg > * {
+  position: relative;
+  z-index: 1;
+}
+
+/* Enhanced button hover effects */
+.gradient-button-hover {
+  position: relative;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.gradient-button-hover::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(135deg, 
+    rgba(66, 133, 244, 0.2) 0%, 
+    rgba(156, 39, 176, 0.2) 25%, 
+    rgba(233, 30, 99, 0.2) 50%, 
+    rgba(255, 87, 34, 0.2) 75%, 
+    rgba(255, 152, 0, 0.2) 100%
+  );
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  z-index: 0;
+}
+
+.gradient-button-hover:hover::before {
+  opacity: 1;
+}
+
+.gradient-button-hover:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 25px rgba(66, 133, 244, 0.3);
+}
+
+.gradient-button-hover > * {
+  position: relative;
+  z-index: 1;
+}
+
 /* Google-style animations */
 @keyframes fade-in {
   from {

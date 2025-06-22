@@ -56,7 +56,7 @@ export const Hero = () => {
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
               <Button
                 onClick={() => scrollToSection("projects")}
-                className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 text-base font-medium rounded-lg shadow-sm hover:shadow-md transition-all duration-200 group"
+                className="gradient-button-hover bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 text-base font-medium rounded-lg shadow-sm hover:shadow-md transition-all duration-200 group"
                 size="lg"
               >
                 View My Work
@@ -65,7 +65,7 @@ export const Hero = () => {
               <Button
                 onClick={handleResumeDownload}
                 variant="outline"
-                className="border-gray-300 text-gray-700 hover:bg-gray-50 px-8 py-3 text-base font-medium rounded-lg group"
+                className="gradient-button-hover border-gray-300 text-gray-700 hover:bg-gray-50 px-8 py-3 text-base font-medium rounded-lg group"
                 size="lg"
               >
                 <Download className="mr-2 h-5 w-5 group-hover:translate-y-0.5 transition-transform" />
@@ -74,7 +74,7 @@ export const Hero = () => {
               <Button
                 variant="outline"
                 onClick={() => scrollToSection("contact")}
-                className="border-gray-300 text-gray-700 hover:bg-gray-50 px-8 py-3 text-base font-medium rounded-lg"
+                className="gradient-button-hover border-gray-300 text-gray-700 hover:bg-gray-50 px-8 py-3 text-base font-medium rounded-lg"
                 size="lg"
               >
                 Get in Touch
@@ -88,7 +88,7 @@ export const Hero = () => {
                 href="https://github.com/rajm5113"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-gray-500 hover:text-gray-700 transition-colors p-2"
+                className="gradient-hover-bg text-gray-500 hover:text-gray-700 transition-colors p-2 rounded-lg"
               >
                 <Github size={24} />
               </a>
@@ -96,13 +96,13 @@ export const Hero = () => {
                 href="https://www.linkedin.com/in/raj-mishra-4ba018202/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-gray-500 hover:text-gray-700 transition-colors p-2"
+                className="gradient-hover-bg text-gray-500 hover:text-gray-700 transition-colors p-2 rounded-lg"
               >
                 <Linkedin size={24} />
               </a>
               <a
                 href="mailto:raj1103mishra@gmail.com"
-                className="text-gray-500 hover:text-gray-700 transition-colors p-2"
+                className="gradient-hover-bg text-gray-500 hover:text-gray-700 transition-colors p-2 rounded-lg"
               >
                 <Mail size={24} />
               </a>

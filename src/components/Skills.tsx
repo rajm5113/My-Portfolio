@@ -82,7 +82,7 @@ export const Skills = () => {
           <h3 className="text-2xl font-light gradient-warmup mb-8 text-center">Technical Expertise</h3>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             {skillCategories.map((category, index) => (
-              <Card key={index} className="border-0 shadow-md hover:shadow-lg transition-shadow">
+              <Card key={index} className="gradient-hover-bg border-0 shadow-md hover:shadow-lg transition-shadow">
                 <CardHeader className="text-center pb-3">
                   <div className="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center mx-auto mb-3">
                     <category.icon className="h-6 w-6 text-blue-600" />
@@ -112,7 +112,7 @@ export const Skills = () => {
           <h3 className="text-2xl font-light gradient-warmup mb-8 text-center">Certifications</h3>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-6">
             {certifications.map((cert, index) => (
-              <Card key={index} className="border-0 shadow-md hover:shadow-lg transition-shadow">
+              <Card key={index} className="gradient-hover-bg border-0 shadow-md hover:shadow-lg transition-shadow">
                 <CardContent className="p-6 text-center">
                   <h4 className="font-semibold text-gray-900 mb-2">{cert.name}</h4>
                   <p className="text-sm text-gray-600 mb-1">{cert.issuer}</p>

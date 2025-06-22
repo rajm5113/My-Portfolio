@@ -88,7 +88,7 @@ export const Projects = () => {
               key={category}
               variant={activeFilter === category ? "default" : "outline"}
               onClick={() => setActiveFilter(category)}
-              className={`${
+              className={`gradient-button-hover ${
                 activeFilter === category 
                   ? "bg-blue-600 hover:bg-blue-700" 
                   : "border-gray-300 text-gray-700 hover:bg-gray-50"
@@ -102,7 +102,7 @@ export const Projects = () => {
         {/* Projects Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {filteredProjects.map((project, index) => (
-            <Card key={index} className="border-0 shadow-md hover:shadow-lg transition-all duration-300 group">
+            <Card key={index} className="gradient-hover-bg border-0 shadow-md hover:shadow-lg transition-all duration-300 group">
               <div className="relative overflow-hidden">
                 <img
                   src={project.image}
@@ -129,13 +129,13 @@ export const Projects = () => {
                   ))}
                 </div>
                 <div className="flex gap-3">
-                  <Button variant="outline" size="sm" asChild>
+                  <Button variant="outline" size="sm" asChild className="gradient-button-hover">
                     <a href={project.github} target="_blank" rel="noopener noreferrer">
                       <Github className="h-4 w-4 mr-2" />
                       Code
                     </a>
                   </Button>
-                  <Button size="sm" asChild className="bg-blue-600 hover:bg-blue-700">
+                  <Button size="sm" asChild className="gradient-button-hover bg-blue-600 hover:bg-blue-700">
                     <a href={project.demo} target="_blank" rel="noopener noreferrer">
                       <ExternalLink className="h-4 w-4 mr-2" />
                       Demo

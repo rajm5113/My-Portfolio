@@ -57,7 +57,7 @@ export const Services = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {services.map((service, index) => (
-            <Card key={index} className="border-0 shadow-md hover:shadow-lg transition-all duration-300 group">
+            <Card key={index} className="gradient-hover-bg border-0 shadow-md hover:shadow-lg transition-all duration-300 group">
               <CardHeader className="text-center">
                 <div className="w-16 h-16 bg-blue-100 rounded-lg flex items-center justify-center mx-auto mb-4 group-hover:bg-blue-200 transition-colors">
                   <service.icon className="h-8 w-8 text-blue-600" />
@@ -93,7 +93,7 @@ export const Services = () => {
                   element.scrollIntoView({ behavior: "smooth" });
                 }
               }}
-              className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-md text-lg font-medium transition-colors"
+              className="gradient-button-hover bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-md text-lg font-medium transition-colors"
             >
               Get in Touch
             </button>

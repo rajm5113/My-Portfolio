@@ -1,0 +1,81 @@
+
+import { Card, CardContent } from "@/components/ui/card";
+import { Trophy, Star, Target, Zap } from "lucide-react";
+
+export const Accomplishments = () => {
+  const accomplishments = [
+    {
+      icon: Trophy,
+      title: "Hackathon Winner",
+      description: "First place in XYZ Hackathon 2024",
+      year: "2024"
+    },
+    {
+      icon: Star,
+      title: "Google Certificate",
+      description: "Google Project Management Professional Certificate",
+      year: "2024"
+    },
+    {
+      icon: Target,
+      title: "Project Success",
+      description: "Successfully delivered 15+ projects with 100% client satisfaction",
+      year: "2023-2024"
+    },
+    {
+      icon: Zap,
+      title: "Innovation Award",
+      description: "Best Innovation Award at College Tech Fest",
+      year: "2023"
+    },
+    {
+      icon: Trophy,
+      title: "IBM Certification",
+      description: "IBM Data Science Professional Certificate",
+      year: "2023"
+    },
+    {
+      icon: Star,
+      title: "Microsoft Badge",
+      description: "Microsoft Azure Fundamentals Certification",
+      year: "2023"
+    }
+  ];
+
+  return (
+    <section id="accomplishments" className="py-20 bg-white">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="text-center mb-16">
+          <h2 className="text-3xl sm:text-4xl font-light gradient-text mb-4">
+            Accomplishments
+          </h2>
+          <div className="w-20 h-1 bg-gradient-to-r from-blue-600 to-purple-600 mx-auto mb-8"></div>
+          <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+            A showcase of my achievements, certifications, and recognition received throughout my journey
+          </p>
+        </div>
+
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          {accomplishments.map((accomplishment, index) => (
+            <Card key={index} className="border-0 shadow-md hover:shadow-lg transition-all duration-300 hover:scale-105">
+              <CardContent className="p-6 text-center">
+                <div className="w-16 h-16 bg-gradient-to-r from-blue-100 to-purple-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <accomplishment.icon className="h-8 w-8 text-blue-600" />
+                </div>
+                <div className="text-xs font-medium text-blue-600 uppercase tracking-wide mb-2">
+                  {accomplishment.year}
+                </div>
+                <h3 className="font-semibold text-gray-900 mb-2 text-lg">
+                  {accomplishment.title}
+                </h3>
+                <p className="text-gray-600 text-sm leading-relaxed">
+                  {accomplishment.description}
+                </p>
+              </CardContent>
+            </Card>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+};

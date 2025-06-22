@@ -1,4 +1,5 @@
-import { ArrowRight, Github, Linkedin, Mail } from "lucide-react";
+
+import { ArrowRight, Github, Linkedin, Mail, Download } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 export const Hero = () => {
@@ -9,12 +10,35 @@ export const Hero = () => {
     }
   };
 
+  const handleResumeDownload = () => {
+    // Replace with your actual resume file path
+    const resumeUrl = "/path-to-your-resume.pdf";
+    const link = document.createElement('a');
+    link.href = resumeUrl;
+    link.download = 'Your_Name_Resume.pdf';
+    link.click();
+  };
+
   return (
     <section id="home" className="min-h-screen flex items-center justify-center bg-white">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
         <div className="text-center">
+          {/* Optional Profile Image */}
+          <div className="animate-fade-in mb-8">
+            <div className="w-32 h-32 mx-auto mb-6 rounded-full bg-gray-100 flex items-center justify-center overflow-hidden">
+              {/* Replace with your actual image */}
+              <img 
+                src="/placeholder.svg" 
+                alt="Your Name" 
+                className="w-full h-full object-cover"
+              />
+              {/* Fallback if no image */}
+              {/* <span className="text-gray-400 text-sm">Your Photo</span> */}
+            </div>
+          </div>
+
           <div className="animate-fade-in">
-            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-normal text-google-gray-800 mb-6 leading-tight">
+            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-normal text-gray-800 mb-6 leading-tight">
               Hello, I'm{" "}
               <span className="font-medium gradient-text">
                 Your Name
@@ -23,7 +47,7 @@ export const Hero = () => {
             <p className="text-xl sm:text-2xl gradient-warmup mb-4 max-w-3xl mx-auto font-light">
               Student at PW IOI Institute of Innovation
             </p>
-            <p className="text-lg text-google-gray-500 mb-12 max-w-2xl mx-auto leading-relaxed">
+            <p className="text-lg text-gray-500 mb-12 max-w-2xl mx-auto leading-relaxed">
               Pursuing Entrepreneurship, Management & Technology with specializations from Google, IBM, Microsoft, and more
             </p>
           </div>
@@ -32,16 +56,25 @@ export const Hero = () => {
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
               <Button
                 onClick={() => scrollToSection("projects")}
-                className="bg-google-blue hover:bg-blue-600 text-white px-8 py-3 text-base font-medium rounded-lg shadow-sm hover:shadow-md transition-all duration-200 group"
+                className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 text-base font-medium rounded-lg shadow-sm hover:shadow-md transition-all duration-200 group"
                 size="lg"
               >
                 View My Work
                 <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
               </Button>
               <Button
+                onClick={handleResumeDownload}
+                variant="outline"
+                className="border-gray-300 text-gray-700 hover:bg-gray-50 px-8 py-3 text-base font-medium rounded-lg group"
+                size="lg"
+              >
+                <Download className="mr-2 h-5 w-5 group-hover:translate-y-0.5 transition-transform" />
+                Resume
+              </Button>
+              <Button
                 variant="outline"
                 onClick={() => scrollToSection("contact")}
-                className="border-google-gray-300 text-google-gray-700 hover:bg-google-gray-50 px-8 py-3 text-base font-medium rounded-lg"
+                className="border-gray-300 text-gray-700 hover:bg-gray-50 px-8 py-3 text-base font-medium rounded-lg"
                 size="lg"
               >
                 Get in Touch
@@ -55,7 +88,7 @@ export const Hero = () => {
                 href="https://github.com/yourusername"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-google-gray-500 hover:text-google-gray-700 transition-colors p-2"
+                className="text-gray-500 hover:text-gray-700 transition-colors p-2"
               >
                 <Github size={24} />
               </a>
@@ -63,13 +96,13 @@ export const Hero = () => {
                 href="https://linkedin.com/in/yourusername"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-google-gray-500 hover:text-google-gray-700 transition-colors p-2"
+                className="text-gray-500 hover:text-gray-700 transition-colors p-2"
               >
                 <Linkedin size={24} />
               </a>
               <a
                 href="mailto:your.email@example.com"
-                className="text-google-gray-500 hover:text-google-gray-700 transition-colors p-2"
+                className="text-gray-500 hover:text-gray-700 transition-colors p-2"
               >
                 <Mail size={24} />
               </a>

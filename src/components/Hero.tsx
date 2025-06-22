@@ -15,7 +15,7 @@ export const Hero = () => {
     const resumeUrl = "/path-to-your-resume.pdf";
     const link = document.createElement('a');
     link.href = resumeUrl;
-    link.download = 'Your_Name_Resume.pdf';
+    link.download = 'Raj_Mishra_Resume.pdf';
     link.click();
   };
 
@@ -29,7 +29,7 @@ export const Hero = () => {
               {/* Replace with your actual image */}
               <img 
                 src="/placeholder.svg" 
-                alt="Your Name" 
+                alt="Raj Mishra" 
                 className="w-full h-full object-cover"
               />
               {/* Fallback if no image */}
@@ -41,14 +41,14 @@ export const Hero = () => {
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-normal text-gray-800 mb-6 leading-tight">
               Hello, I'm{" "}
               <span className="font-medium gradient-text">
-                Your Name
+                Raj Mishra
               </span>
             </h1>
             <p className="text-xl sm:text-2xl gradient-warmup mb-4 max-w-3xl mx-auto font-light">
               Student at PW IOI Institute of Innovation
             </p>
             <p className="text-lg text-gray-500 mb-12 max-w-2xl mx-auto leading-relaxed">
-              Pursuing Entrepreneurship, Management & Technology with specializations from Google, IBM, Microsoft, and more
+              2nd Semester, 1st Year - School of Management in Entrepreneurship & Technology. Specializing in AI/ML, Data Science, and Business Strategy.
             </p>
           </div>
 
@@ -85,7 +85,7 @@ export const Hero = () => {
           <div className="animate-fade-in delay-300">
             <div className="flex justify-center space-x-8">
               <a
-                href="https://github.com/yourusername"
+                href="https://github.com/rajm5113"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-500 hover:text-gray-700 transition-colors p-2"
@@ -93,7 +93,7 @@ export const Hero = () => {
                 <Github size={24} />
               </a>
               <a
-                href="https://linkedin.com/in/yourusername"
+                href="https://www.linkedin.com/in/raj-mishra-4ba018202/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-500 hover:text-gray-700 transition-colors p-2"
@@ -101,7 +101,7 @@ export const Hero = () => {
                 <Linkedin size={24} />
               </a>
               <a
-                href="mailto:your.email@example.com"
+                href="mailto:raj1103mishra@gmail.com"
                 className="text-gray-500 hover:text-gray-700 transition-colors p-2"
               >
                 <Mail size={24} />

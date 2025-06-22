@@ -1,44 +1,44 @@
 
 import { Card, CardContent } from "@/components/ui/card";
-import { Trophy, Star, Target, Zap } from "lucide-react";
+import { Trophy, Star, Target, Zap, Award, BookOpen } from "lucide-react";
 
 export const Accomplishments = () => {
   const accomplishments = [
     {
       icon: Trophy,
-      title: "Hackathon Winner",
-      description: "First place in XYZ Hackathon 2024",
+      title: "Multiple Hackathon Participation",
+      description: "Active participant in PW IOI hackathons and AWS collaborative events",
       year: "2024"
     },
     {
       icon: Star,
-      title: "Google Certificate",
-      description: "Google Project Management Professional Certificate",
+      title: "Google Certifications",
+      description: "Data Analyst and Digital Marketing Professional Certificates",
+      year: "2024"
+    },
+    {
+      icon: Award,
+      title: "University of Michigan",
+      description: "Web Design for Everybody & Python for Everybody Specializations",
+      year: "2024"
+    },
+    {
+      icon: BookOpen,
+      title: "IBM AI Developer",
+      description: "Currently pursuing AI Developer Professional Certificate",
       year: "2024"
     },
     {
       icon: Target,
-      title: "Project Success",
-      description: "Successfully delivered 15+ projects with 100% client satisfaction",
-      year: "2023-2024"
+      title: "Capstone Projects",
+      description: "Successfully working on multiple capstone projects from Coursera",
+      year: "2024"
     },
     {
       icon: Zap,
-      title: "Innovation Award",
-      description: "Best Innovation Award at College Tech Fest",
-      year: "2023"
-    },
-    {
-      icon: Trophy,
-      title: "IBM Certification",
-      description: "IBM Data Science Professional Certificate",
-      year: "2023"
-    },
-    {
-      icon: Star,
-      title: "Microsoft Badge",
-      description: "Microsoft Azure Fundamentals Certification",
-      year: "2023"
+      title: "GitHub Portfolio",
+      description: "Extensive collection of projects showcasing technical skills",
+      year: "2024"
     }
   ];
 
@@ -51,7 +51,7 @@ export const Accomplishments = () => {
           </h2>
           <div className="w-20 h-1 bg-gradient-to-r from-blue-600 to-purple-600 mx-auto mb-8"></div>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            A showcase of my achievements, certifications, and recognition received throughout my journey
+            A showcase of my achievements, certifications, and recognition received throughout my learning journey
           </p>
         </div>
 

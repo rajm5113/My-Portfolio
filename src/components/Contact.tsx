@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Textarea } from "@/components/ui/textarea";
-import { Mail, Phone, MapPin, Github, Linkedin, Twitter } from "lucide-react";
+import { Mail, Phone, MapPin, Github, Linkedin } from "lucide-react";
 import { useToast } from "@/hooks/use-toast";
 
 export const Contact = () => {
@@ -44,19 +44,19 @@ export const Contact = () => {
     {
       icon: Mail,
       title: "Email",
-      value: "your.email@example.com",
-      link: "mailto:your.email@example.com"
+      value: "raj1103mishra@gmail.com",
+      link: "mailto:raj1103mishra@gmail.com"
     },
     {
       icon: Phone,
       title: "Phone",
-      value: "+1 (555) 123-4567",
-      link: "tel:+15551234567"
+      value: "+91 7007324899",
+      link: "tel:+917007324899"
     },
     {
       icon: MapPin,
       title: "Location",
-      value: "Your City, Country",
+      value: "Bengaluru, India",
       link: "#"
     }
   ];
@@ -65,17 +65,12 @@ export const Contact = () => {
     {
       icon: Github,
       name: "GitHub",
-      url: "https://github.com/yourusername"
+      url: "https://github.com/rajm5113"
     },
     {
       icon: Linkedin,
       name: "LinkedIn",
-      url: "https://linkedin.com/in/yourusername"
-    },
-    {
-      icon: Twitter,
-      name: "Twitter",
-      url: "https://twitter.com/yourusername"
+      url: "https://www.linkedin.com/in/raj-mishra-4ba018202/"
     }
   ];
 
@@ -88,7 +83,7 @@ export const Contact = () => {
           </h2>
           <div className="w-20 h-1 bg-blue-600 mx-auto mb-8"></div>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Ready to start your next project? Let's discuss how we can work together to bring your ideas to life.
+            Interested in collaboration, have a project idea, or want to discuss technology and entrepreneurship? Let's connect!
           </p>
         </div>
 
@@ -201,17 +196,17 @@ export const Contact = () => {
             </div>
 
             <div className="bg-white rounded-lg p-6 shadow-md">
-              <h3 className="text-xl font-semibold text-gray-900 mb-4">Let's Work Together</h3>
+              <h3 className="text-xl font-semibold text-gray-900 mb-4">Let's Collaborate</h3>
               <p className="text-gray-600 mb-4">
-                I'm always interested in new opportunities and exciting projects. 
-                Whether you need technical expertise, strategic guidance, or innovative solutions, 
-                let's discuss how we can collaborate.
+                I'm always excited to connect with fellow students, professionals, and innovators. 
+                Whether it's about technology, entrepreneurship, or collaboration opportunities, 
+                I'd love to hear from you.
               </p>
               <ul className="text-sm text-gray-500 space-y-1">
-                <li>• Available for freelance projects</li>
-                <li>• Open to full-time opportunities</li>
-                <li>• Interested in collaboration</li>
-                <li>• Happy to provide consultation</li>
+                <li>• Open to project collaborations</li>
+                <li>• Available for hackathon partnerships</li>
+                <li>• Interested in learning opportunities</li>
+                <li>• Happy to discuss ideas and innovations</li>
               </ul>
             </div>
           </div>

@@ -1,3 +1,4 @@
+
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Code, Palette, BarChart, Lightbulb } from "lucide-react";
@@ -8,56 +9,61 @@ export const Skills = () => {
       icon: Code,
       title: "Technical Skills",
       skills: [
-        "JavaScript", "Python", "React", "Node.js", "TypeScript", 
-        "SQL", "MongoDB", "Git", "AWS", "Docker"
+        "Python", "Web Development", "HTML/CSS", "JavaScript", 
+        "AI/ML", "Data Science", "Data Analysis", "Git", "GitHub"
       ]
     },
     {
       icon: Palette,
-      title: "Design & Tools",
+      title: "Design & Development",
       skills: [
-        "Figma", "Adobe Creative Suite", "UI/UX Design", 
-        "Wireframing", "Prototyping", "Design Systems"
+        "Web Design", "Responsive Design", "UI/UX Basics", 
+        "Frontend Development", "Project Development"
       ]
     },
     {
       icon: BarChart,
       title: "Business & Analytics",
       skills: [
-        "Data Analysis", "Market Research", "Business Strategy", 
-        "Project Management", "Excel", "Tableau"
+        "Data Analysis", "Digital Marketing", "Business Strategy", 
+        "Entrepreneurship", "Project Management", "Critical Thinking"
       ]
     },
     {
       icon: Lightbulb,
       title: "Soft Skills",
       skills: [
-        "Leadership", "Communication", "Problem Solving", 
-        "Team Collaboration", "Innovation", "Adaptability"
+        "Leadership", "Problem Solving", "Innovation", 
+        "Team Collaboration", "Adaptability", "Management"
       ]
     }
   ];
 
   const certifications = [
     {
-      name: "Google Cloud Associate",
+      name: "Web Design for Everybody",
+      issuer: "University of Michigan",
+      year: "2024"
+    },
+    {
+      name: "Python for Everybody",
+      issuer: "University of Michigan", 
+      year: "2024"
+    },
+    {
+      name: "Data Analyst Certificate",
       issuer: "Google",
       year: "2024"
     },
     {
-      name: "IBM Data Science Professional",
-      issuer: "IBM",
-      year: "2023"
-    },
-    {
-      name: "Microsoft Azure Fundamentals",
-      issuer: "Microsoft",
+      name: "Digital Marketing",
+      issuer: "Google",
       year: "2024"
     },
     {
-      name: "AWS Cloud Practitioner",
-      issuer: "Amazon",
-      year: "2023"
+      name: "AI Developer Course",
+      issuer: "IBM (Pursuing)",
+      year: "2024"
     }
   ];
 
@@ -104,7 +110,7 @@ export const Skills = () => {
         {/* Certifications Section */}
         <div>
           <h3 className="text-2xl font-light gradient-warmup mb-8 text-center">Certifications</h3>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-6">
             {certifications.map((cert, index) => (
               <Card key={index} className="border-0 shadow-md hover:shadow-lg transition-shadow">
                 <CardContent className="p-6 text-center">

@@ -7,22 +7,22 @@ export const Biography = () => {
     {
       icon: GraduationCap,
       title: "Education",
-      description: "PW IOI Institute of Innovation - Entrepreneurship, Management & Technology"
+      description: "PW IOI Institute of Innovation - School of Management in Entrepreneurship & Technology"
     },
     {
       icon: Award,
       title: "Certifications",
-      description: "Specialized courses from Google, IBM, Microsoft, and other leading companies"
+      description: "Specialized courses from Google, IBM, University of Michigan through Coursera"
     },
     {
       icon: Users,
       title: "Hackathons",
-      description: "Participated in multiple hackathons with innovative solutions"
+      description: "Multiple participations at PW IOI and PW IOI with AWS events"
     },
     {
       icon: Lightbulb,
       title: "Projects",
-      description: "Developed numerous projects showcasing technical and entrepreneurial skills"
+      description: "Capstone projects and numerous GitHub repositories showcasing technical skills"
     }
   ];
 
@@ -39,20 +39,21 @@ export const Biography = () => {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
             <p className="text-lg text-gray-600 leading-relaxed">
-              I'm a passionate student at PW IOI Institute of Innovation, where I'm pursuing studies in 
-              Entrepreneurship, Management, and Technology. My journey extends beyond traditional academics 
-              as I actively audit lectures and complete specialized courses from industry leaders like 
-              Google, IBM, and Microsoft through Coursera.
+              I'm Raj Mishra, a passionate student at PW IOI Institute of Innovation, where I'm pursuing 
+              my studies in the School of Management in Entrepreneurship & Technology. Currently in my 
+              2nd semester of the 1st year, I'm building a strong foundation in both technical skills 
+              and business acumen.
             </p>
             <p className="text-lg text-gray-600 leading-relaxed">
-              With a strong foundation in both technical skills and business acumen, I've participated 
-              in multiple hackathons and developed numerous projects that showcase my ability to innovate 
-              and solve real-world problems. I'm constantly learning and applying new technologies to 
-              create meaningful solutions.
+              My primary areas of interest span across Technology - particularly AI/ML and Data Science - 
+              and Business domains including entrepreneurship, management, and critical thinking. I actively 
+              pursue knowledge through specialized courses from industry leaders like Google, IBM, and the 
+              University of Michigan via Coursera.
             </p>
             <p className="text-lg text-gray-600 leading-relaxed">
-              My goal is to bridge the gap between technology and business, creating innovative solutions 
-              that make a positive impact on society while building sustainable and scalable ventures.
+              Beyond academics, I'm actively involved in hackathons at PW IOI and collaborative events 
+              with AWS, constantly working on capstone projects and building a robust portfolio on GitHub. 
+              My goal is to bridge the gap between cutting-edge technology and innovative business solutions.
             </p>
           </div>
 

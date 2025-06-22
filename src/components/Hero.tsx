@@ -23,17 +23,14 @@ export const Hero = () => {
     <section id="home" className="min-h-screen flex items-center justify-center bg-white">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
         <div className="text-center">
-          {/* Optional Profile Image */}
+          {/* Profile Image */}
           <div className="animate-fade-in mb-8">
-            <div className="w-32 h-32 mx-auto mb-6 rounded-full bg-gray-100 flex items-center justify-center overflow-hidden">
-              {/* Replace with your actual image */}
+            <div className="w-32 h-32 mx-auto mb-6 rounded-full bg-gray-100 flex items-center justify-center overflow-hidden shadow-lg">
               <img 
-                src="/placeholder.svg" 
+                src="/lovable-uploads/ec1fb0b5-565d-4b1d-ae79-b6c70b3b2535.png" 
                 alt="Raj Mishra" 
                 className="w-full h-full object-cover"
               />
-              {/* Fallback if no image */}
-              {/* <span className="text-gray-400 text-sm">Your Photo</span> */}
             </div>
           </div>
 
@@ -56,7 +53,7 @@ export const Hero = () => {
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
               <Button
                 onClick={() => scrollToSection("projects")}
-                className="gradient-button-hover bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 text-base font-medium rounded-lg shadow-sm hover:shadow-md transition-all duration-200 group"
+                className="dynamic-hover bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 text-base font-medium rounded-lg shadow-sm hover:shadow-md transition-all duration-200 group"
                 size="lg"
               >
                 View My Work
@@ -65,7 +62,7 @@ export const Hero = () => {
               <Button
                 onClick={handleResumeDownload}
                 variant="outline"
-                className="gradient-button-hover border-gray-300 text-gray-700 hover:bg-gray-50 px-8 py-3 text-base font-medium rounded-lg group"
+                className="dynamic-hover border-gray-300 text-gray-700 hover:bg-gray-50 px-8 py-3 text-base font-medium rounded-lg group"
                 size="lg"
               >
                 <Download className="mr-2 h-5 w-5 group-hover:translate-y-0.5 transition-transform" />
@@ -74,7 +71,7 @@ export const Hero = () => {
               <Button
                 variant="outline"
                 onClick={() => scrollToSection("contact")}
-                className="gradient-button-hover border-gray-300 text-gray-700 hover:bg-gray-50 px-8 py-3 text-base font-medium rounded-lg"
+                className="dynamic-hover border-gray-300 text-gray-700 hover:bg-gray-50 px-8 py-3 text-base font-medium rounded-lg"
                 size="lg"
               >
                 Get in Touch
@@ -88,7 +85,7 @@ export const Hero = () => {
                 href="https://github.com/rajm5113"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="gradient-hover-bg text-gray-500 hover:text-gray-700 transition-colors p-2 rounded-lg"
+                className="dynamic-hover text-gray-500 hover:text-gray-700 transition-colors p-2 rounded-lg"
               >
                 <Github size={24} />
               </a>
@@ -96,13 +93,13 @@ export const Hero = () => {
                 href="https://www.linkedin.com/in/raj-mishra-4ba018202/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="gradient-hover-bg text-gray-500 hover:text-gray-700 transition-colors p-2 rounded-lg"
+                className="dynamic-hover text-gray-500 hover:text-gray-700 transition-colors p-2 rounded-lg"
               >
                 <Linkedin size={24} />
               </a>
               <a
                 href="mailto:raj1103mishra@gmail.com"
-                className="gradient-hover-bg text-gray-500 hover:text-gray-700 transition-colors p-2 rounded-lg"
+                className="dynamic-hover text-gray-500 hover:text-gray-700 transition-colors p-2 rounded-lg"
               >
                 <Mail size={24} />
               </a>

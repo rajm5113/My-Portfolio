@@ -45,7 +45,7 @@ export const Hero = () => {
               Student at PW IOI Institute of Innovation
             </p>
             <p className="text-lg text-gray-500 mb-12 max-w-2xl mx-auto leading-relaxed">
-              2nd Semester, 1st Year - School of Management in Entrepreneurship & Technology. Specializing in AI/ML, Data Science, and Business Strategy.
+              Pursuing Entrepreneurship, Management & Technology with specializations from Google, IBM, Microsoft, and more
             </p>
           </div>
 

@@ -2,6 +2,17 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Code, Palette, BarChart, Lightbulb, ExternalLink } from "lucide-react";
+import universityMichiganLogo from "@/assets/university-michigan-logo.png";
+import googleLogo from "@/assets/google-logo.png";
+import ibmLogo from "@/assets/ibm-logo.png";
+
+interface Certification {
+  name: string;
+  issuer: string;
+  year: string;
+  logo: string;
+  link?: string;
+}
 
 export const Skills = () => {
   const skillCategories = [
@@ -39,33 +50,38 @@ export const Skills = () => {
     }
   ];
 
-  const certifications = [
+  const certifications: Certification[] = [
     {
       name: "Web Design for Everybody",
       issuer: "University of Michigan",
-      year: "2024"
+      year: "2024",
+      logo: universityMichiganLogo
     },
     {
       name: "Python for Everybody",
       issuer: "University of Michigan", 
-      year: "2024"
+      year: "2024",
+      logo: universityMichiganLogo
     },
     {
       name: "Data Analyst Certificate",
       issuer: "Google",
       year: "2024",
-      link: "https://drive.google.com/file/d/1nP1eknYscyRrgSwNFDHNCNO_PrTNhWQq/view?usp=sharing"
+      link: "https://drive.google.com/uc?export=view&id=1nP1eknYscyRrgSwNFDHNCNO_PrTNhWQq",
+      logo: googleLogo
     },
     {
       name: "Digital Marketing",
       issuer: "Google",
       year: "2024",
-      link: "https://drive.google.com/file/d/1_14UnB-NWi5i0RIm-hvMyc62E8wNcvsP/view?usp=sharing"
+      link: "https://drive.google.com/file/d/1_14UnB-NWi5i0RIm-hvMyc62E8wNcvsP/view?usp=sharing",
+      logo: googleLogo
     },
     {
       name: "AI Developer Course",
       issuer: "IBM (Pursuing)",
-      year: "2024"
+      year: "2024",
+      logo: ibmLogo
     }
   ];
 
@@ -120,6 +136,13 @@ export const Skills = () => {
                 onClick={cert.link ? () => window.open(cert.link, '_blank') : undefined}
               >
                 <CardContent className="p-6 text-center">
+                  <div className="w-16 h-16 mx-auto mb-4 bg-white rounded-lg shadow-sm flex items-center justify-center">
+                    <img 
+                      src={cert.logo} 
+                      alt={`${cert.issuer} logo`} 
+                      className="w-12 h-12 object-contain"
+                    />
+                  </div>
                   <h4 className="font-semibold text-gray-900 mb-2">{cert.name}</h4>
                   <p className="text-sm text-gray-600 mb-1">{cert.issuer}</p>
                   <p className="text-xs text-gray-500">{cert.year}</p>

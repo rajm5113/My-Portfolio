@@ -11,8 +11,7 @@ export const Hero = () => {
   };
 
   const handleResumeDownload = () => {
-    // Replace with your actual resume file path
-    const resumeUrl = "/path-to-your-resume.pdf";
+    const resumeUrl = "/Raj_Mishra_Resume.pdf";
     const link = document.createElement('a');
     link.href = resumeUrl;
     link.download = 'Raj_Mishra_Resume.pdf';

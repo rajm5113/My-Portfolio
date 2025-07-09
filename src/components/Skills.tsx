@@ -1,7 +1,7 @@
 
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { Code, Palette, BarChart, Lightbulb } from "lucide-react";
+import { Code, Palette, BarChart, Lightbulb, ExternalLink } from "lucide-react";
 
 export const Skills = () => {
   const skillCategories = [
@@ -53,12 +53,14 @@ export const Skills = () => {
     {
       name: "Data Analyst Certificate",
       issuer: "Google",
-      year: "2024"
+      year: "2024",
+      link: "https://drive.google.com/uc?export=view&id=1nP1eknYscyRrgSwNFDHNCNO_PrTNhWQq"
     },
     {
       name: "Digital Marketing",
       issuer: "Google",
-      year: "2024"
+      year: "2024",
+      link: "https://drive.google.com/file/d/1_14UnB-NWi5i0RIm-hvMyc62E8wNcvsP/view?usp=sharing"
     },
     {
       name: "AI Developer Course",
@@ -112,9 +114,16 @@ export const Skills = () => {
           <h3 className="text-2xl font-light gradient-warmup mb-8 text-center">Certifications</h3>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-6">
             {certifications.map((cert, index) => (
-              <Card key={index} className="gradient-hover-bg border-0 shadow-md hover:shadow-lg transition-shadow">
+              <Card 
+                key={index} 
+                className={`gradient-hover-bg border-0 shadow-md hover:shadow-lg transition-shadow ${cert.link ? 'cursor-pointer' : ''}`}
+                onClick={cert.link ? () => window.open(cert.link, '_blank') : undefined}
+              >
                 <CardContent className="p-6 text-center">
-                  <h4 className="font-semibold text-gray-900 mb-2">{cert.name}</h4>
+                  <div className="flex items-center justify-center gap-2 mb-2">
+                    <h4 className="font-semibold text-gray-900">{cert.name}</h4>
+                    {cert.link && <ExternalLink className="h-4 w-4 text-gray-500" />}
+                  </div>
                   <p className="text-sm text-gray-600 mb-1">{cert.issuer}</p>
                   <p className="text-xs text-gray-500">{cert.year}</p>
                 </CardContent>

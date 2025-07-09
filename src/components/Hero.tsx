@@ -11,11 +11,8 @@ export const Hero = () => {
   };
 
   const handleResumeDownload = () => {
-    const resumeUrl = "/Raj_Mishra_Resume.pdf";
-    const link = document.createElement('a');
-    link.href = resumeUrl;
-    link.download = 'Raj_Mishra_Resume.pdf';
-    link.click();
+    const resumeUrl = "https://drive.google.com/file/d/19PsvOMbN2Zyl1EZP9NN8AY40iV37P2cF/view?usp=sharing";
+    window.open(resumeUrl, '_blank');
   };
 
   return (

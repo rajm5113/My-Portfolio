@@ -8,7 +8,7 @@ export const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* About Section */}
           <div>
-            <h3 className="text-xl font-semibold mb-4">Your Name</h3>
+            <h3 className="text-xl font-semibold mb-4">Raj Mishra</h3>
             <p className="text-gray-300 text-sm leading-relaxed">
               Student at PW IOI Institute of Innovation, passionate about technology, 
               entrepreneurship, and creating innovative solutions that make a difference.
@@ -87,22 +87,23 @@ export const Footer = () => {
                 <Linkedin size={20} />
               </a>
               <a
-                href="mailto:your.email@example.com"
+                href="mailto:raj1103mishra@gmail.com"
                 className="text-gray-300 hover:text-white transition-colors"
               >
                 <Mail size={20} />
               </a>
             </div>
-            <p className="text-gray-300 text-sm">
-              your.email@example.com
-            </p>
+            <div className="text-gray-300 text-sm space-y-1">
+              <p>raj1103mishra@gmail.com</p>
+              <p>raj.mishra.som.2428@pwioi.com</p>
+            </div>
           </div>
         </div>
 
         <div className="border-t border-gray-700 pt-8 mt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-gray-300 text-sm mb-4 md:mb-0">
-              © {new Date().getFullYear()} Your Name. All rights reserved.
+              © {new Date().getFullYear()} Raj Mishra. All rights reserved.
             </p>
             <p className="text-gray-300 text-sm flex items-center">
               Made with <Heart className="h-4 w-4 text-red-500 mx-1" /> using React & Tailwind CSS

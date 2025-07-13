@@ -55,7 +55,7 @@ export const Skills = () => {
       name: "Data Analyst Certificate",
       issuer: "Google",
       year: "2024",
-      link: "https://drive.google.com/uc?export=view&id=1nP1eknYscyRrgSwNFDHNCNO_PrTNhWQq",
+      link: "https://drive.google.com/file/d/1nP1eknYscyRrgSwNFDHNCNO_PrTNhWQq/view?usp=sharing",
       logo: googleLogo
     },
     {

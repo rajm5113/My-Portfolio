@@ -66,6 +66,13 @@ export const Skills = () => {
       logo: googleLogo
     },
     {
+      name: "Prompt Engineering",
+      issuer: "IBM",
+      year: "2024",
+      link: "https://drive.google.com/file/d/1P_sVHlZ6cuP5SPFNDXQ9cGHpLrC5VFKD/view?usp=sharing",
+      logo: ibmLogo
+    },
+    {
       name: "AI Developer Course",
       issuer: "IBM (Pursuing)",
       year: "2024",

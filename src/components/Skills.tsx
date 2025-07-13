@@ -17,6 +17,14 @@ interface Certification {
 export const Skills = () => {
   const skillCategories = [
     {
+      icon: BarChart,
+      title: "Business & Analytics",
+      skills: [
+        "Data Analysis", "Digital Marketing", "Business Strategy", 
+        "Entrepreneurship", "Project Management", "Critical Thinking"
+      ]
+    },
+    {
       icon: Code,
       title: "Technical Skills",
       skills: [
@@ -33,14 +41,6 @@ export const Skills = () => {
       ]
     },
     {
-      icon: BarChart,
-      title: "Business & Analytics",
-      skills: [
-        "Data Analysis", "Digital Marketing", "Business Strategy", 
-        "Entrepreneurship", "Project Management", "Critical Thinking"
-      ]
-    },
-    {
       icon: Lightbulb,
       title: "Soft Skills",
       skills: [
@@ -51,18 +51,6 @@ export const Skills = () => {
   ];
 
   const certifications: Certification[] = [
-    {
-      name: "Web Design for Everybody",
-      issuer: "University of Michigan",
-      year: "2024",
-      logo: universityMichiganLogo
-    },
-    {
-      name: "Python for Everybody",
-      issuer: "University of Michigan", 
-      year: "2024",
-      logo: universityMichiganLogo
-    },
     {
       name: "Data Analyst Certificate",
       issuer: "Google",
@@ -82,6 +70,18 @@ export const Skills = () => {
       issuer: "IBM (Pursuing)",
       year: "2024",
       logo: ibmLogo
+    },
+    {
+      name: "Web Design for Everybody",
+      issuer: "University of Michigan",
+      year: "2024",
+      logo: universityMichiganLogo
+    },
+    {
+      name: "Python for Everybody",
+      issuer: "University of Michigan", 
+      year: "2024",
+      logo: universityMichiganLogo
     }
   ];
 

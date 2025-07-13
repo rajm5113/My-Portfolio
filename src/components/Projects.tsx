@@ -18,6 +18,23 @@ export const Projects = () => {
       demo: "https://project1-demo.com"
     },
     {
+      title: "Data Visualization Project",
+      description: "Comprehensive data analytics project showcasing data visualization and business insights",
+      image: "/placeholder.svg",
+      technologies: ["Google Sheets", "Data Analysis", "Visualization", "Statistics"],
+      category: "Data Science",
+      demo: "https://docs.google.com/spreadsheets/d/1E3BhM77v7loZCfRfI_uGq0cpYaSd9slfjmeNsdFV8u0/edit?usp=sharing"
+    },
+    {
+      title: "SQL Business Analytics",
+      description: "MySQL project solving real business problems with advanced SQL queries and database optimization",
+      image: "/placeholder.svg",
+      technologies: ["MySQL", "SQL", "Database Design", "Business Intelligence"],
+      category: "Data Science",
+      github: "https://github.com/rajm5113/mint_classics_project_SQL/blob/main/2%20mint_classics_project_queries.sql",
+      demo: "https://github.com/rajm5113/mint_classics_project_SQL"
+    },
+    {
       title: "Data Analytics Dashboard",
       description: "Interactive dashboard for business intelligence and data visualization",
       image: "/placeholder.svg",
@@ -129,12 +146,14 @@ export const Projects = () => {
                   ))}
                 </div>
                 <div className="flex gap-3">
-                  <Button variant="outline" size="sm" asChild className="gradient-button-hover">
-                    <a href={project.github} target="_blank" rel="noopener noreferrer">
-                      <Github className="h-4 w-4 mr-2" />
-                      Code
-                    </a>
-                  </Button>
+                  {project.github && (
+                    <Button variant="outline" size="sm" asChild className="gradient-button-hover">
+                      <a href={project.github} target="_blank" rel="noopener noreferrer">
+                        <Github className="h-4 w-4 mr-2" />
+                        Code
+                      </a>
+                    </Button>
+                  )}
                   <Button size="sm" asChild className="gradient-button-hover bg-blue-600 hover:bg-blue-700">
                     <a href={project.demo} target="_blank" rel="noopener noreferrer">
                       <ExternalLink className="h-4 w-4 mr-2" />

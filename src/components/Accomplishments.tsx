@@ -1,10 +1,9 @@
 
 import { Card, CardContent } from "@/components/ui/card";
 import { Trophy, Star, Target, Zap, Award, BookOpen } from "lucide-react";
-import { useNavigate } from "react-router-dom";
+
 
 export const Accomplishments = () => {
-  const navigate = useNavigate();
   const accomplishments = [
     {
       icon: Trophy,
@@ -16,8 +15,7 @@ export const Accomplishments = () => {
       icon: Star,
       title: "Google Certifications",
       description: "Data Analyst and Digital Marketing Professional Certificates",
-      year: "2024",
-      clickable: true
+      year: "2024"
     },
     {
       icon: Award,
@@ -62,10 +60,7 @@ export const Accomplishments = () => {
           {accomplishments.map((accomplishment, index) => (
             <Card 
               key={index} 
-              className={`gradient-hover-bg border-0 shadow-md hover:shadow-lg transition-all duration-300 hover:scale-105 ${
-                accomplishment.clickable ? 'cursor-pointer' : ''
-              }`}
-              onClick={accomplishment.clickable ? () => navigate('/google-course-projects') : undefined}
+              className="gradient-hover-bg border-0 shadow-md hover:shadow-lg transition-all duration-300 hover:scale-105"
             >
               <CardContent className="p-6 text-center">
                 <div className="w-16 h-16 bg-gradient-to-r from-blue-100 to-purple-100 rounded-full flex items-center justify-center mx-auto mb-4">

@@ -130,7 +130,7 @@ export const Projects = () => {
               </div>
               <CardHeader>
                 <div className="flex justify-between items-start mb-2">
-                  <CardTitle className="text-lg font-semibold text-gray-900">{project.title}</CardTitle>
+                  <CardTitle className="text-lg font-semibold text-gray-900">Mint Classics Warehouse Optimization Project</CardTitle>
                   <Badge variant="secondary" className="text-xs bg-blue-100 text-blue-800">
                     {project.category}
                   </Badge>

@@ -18,12 +18,13 @@ export const Projects = () => {
       demo: "https://project1-demo.com"
     },
     {
-      title: "Data Visualization using Google Sheet",
-      description: "Comprehensive data analytics project showcasing data visualization and business insights",
+      title: "SQL Data Analysis with CASE Statements",
+      description: "Advanced SQL project using CASE statements for complex data analysis and reporting",
       image: "/placeholder.svg",
-      technologies: ["Google Sheets", "Data Analysis", "Visualization", "Statistics"],
+      technologies: ["SQL", "Data Analysis", "CASE Statements", "MySQL"],
       category: "Data Science",
-      demo: "https://docs.google.com/spreadsheets/d/1E3BhM77v7loZCfRfI_uGq0cpYaSd9slfjmeNsdFV8u0/edit?usp=sharing"
+      github: "https://github.com/rajm5113/SQL-CASE-Statements/blob/main/My%20work%20on%20Querry%20Employee.sql",
+      demo: "https://github.com/rajm5113/SQL-CASE-Statements"
     },
     {
       title: "Mint Classics SQL Project",
@@ -40,26 +41,16 @@ export const Projects = () => {
       image: "/placeholder.svg",
       technologies: ["MySQL", "MySQL Workbench", "SQL", "Database Design"],
       category: "Data Science",
-      github: "https://github.com/yourusername/project2",
-      demo: "https://project2-demo.com"
+      github: "https://github.com/rajm5113/Manage-Data-for-an-Online-Grocer-Using-MySQL-Workbench/blob/main/3.1%20SQL%20Scripts.sql",
+      demo: "https://github.com/rajm5113/Manage-Data-for-an-Online-Grocer-Using-MySQL-Workbench"
     },
     {
-      title: "Analyze Data in a Model Car Database with MySQL Workbench",
-      description: "Database analysis project using MySQL Workbench to optimize model car inventory",
+      title: "Data Visualization using Google Sheet",
+      description: "Comprehensive data analytics project showcasing data visualization and business insights",
       image: "/placeholder.svg",
-      technologies: ["MySQL", "MySQL Workbench", "Database Analysis", "SQL Queries"],
+      technologies: ["Google Sheets", "Data Analysis", "Visualization", "Statistics"],
       category: "Data Science",
-      github: "https://github.com/yourusername/model-car-database",
-      demo: "https://github.com/yourusername/model-car-database"
-    },
-    {
-      title: "SQL Data Analysis with CASE Statements",
-      description: "Advanced SQL project using CASE statements for complex data analysis and reporting",
-      image: "/placeholder.svg",
-      technologies: ["SQL", "Data Analysis", "CASE Statements", "MySQL"],
-      category: "Data Science",
-      github: "https://github.com/yourusername/sql-case-analysis",
-      demo: "https://github.com/yourusername/sql-case-analysis"
+      demo: "https://docs.google.com/spreadsheets/d/1E3BhM77v7loZCfRfI_uGq0cpYaSd9slfjmeNsdFV8u0/edit?usp=sharing"
     },
     {
       title: "Blockchain Voting System",

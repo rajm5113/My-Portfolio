@@ -72,7 +72,7 @@ export const Projects = () => {
     }
   ];
 
-  const categories = ["All", "Web Development", "Data Science", "Mobile Development", "AI/ML", "Blockchain", "IoT", "Marketing", "Finance", "Digital Marketing & E-Commerce"];
+  const categories = ["All", "Digital Marketing & E-Commerce", "Finance", "Marketing", "AI/ML", "Data Science", "Web Development"];
 
   const filteredProjects = activeFilter === "All" 
     ? projects 

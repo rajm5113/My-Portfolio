@@ -18,7 +18,7 @@ export const Projects = () => {
       demo: "https://project1-demo.com"
     },
     {
-      title: "Data Visualization Project",
+      title: "Data Visualization using Google Sheet",
       description: "Comprehensive data analytics project showcasing data visualization and business insights",
       image: "/placeholder.svg",
       technologies: ["Google Sheets", "Data Analysis", "Visualization", "Statistics"],
@@ -26,7 +26,7 @@ export const Projects = () => {
       demo: "https://docs.google.com/spreadsheets/d/1E3BhM77v7loZCfRfI_uGq0cpYaSd9slfjmeNsdFV8u0/edit?usp=sharing"
     },
     {
-      title: "SQL Business Analytics",
+      title: "Mint Classics SQL Project",
       description: "MySQL project solving real business problems with advanced SQL queries and database optimization",
       image: "/placeholder.svg",
       technologies: ["MySQL", "SQL", "Database Design", "Business Intelligence"],
@@ -35,31 +35,31 @@ export const Projects = () => {
       demo: "https://github.com/rajm5113/mint_classics_project_SQL"
     },
     {
-      title: "Data Analytics Dashboard",
+      title: "Online Grocer Using MySQL Workbench",
       description: "Interactive dashboard for business intelligence and data visualization",
       image: "/placeholder.svg",
-      technologies: ["Python", "Tableau", "SQL", "AWS"],
+      technologies: ["MySQL", "MySQL Workbench", "SQL", "Database Design"],
       category: "Data Science",
       github: "https://github.com/yourusername/project2",
       demo: "https://project2-demo.com"
     },
     {
-      title: "Mobile Health App",
-      description: "React Native app for tracking health metrics and wellness goals",
+      title: "Analyze Data in a Model Car Database with MySQL Workbench",
+      description: "Database analysis project using MySQL Workbench to optimize model car inventory",
       image: "/placeholder.svg",
-      technologies: ["React Native", "Firebase", "Health APIs"],
-      category: "Mobile Development",
-      github: "https://github.com/yourusername/project3",
-      demo: "https://project3-demo.com"
+      technologies: ["MySQL", "MySQL Workbench", "Database Analysis", "SQL Queries"],
+      category: "Data Science",
+      github: "https://github.com/yourusername/model-car-database",
+      demo: "https://github.com/yourusername/model-car-database"
     },
     {
-      title: "AI Chatbot Assistant",
-      description: "Intelligent chatbot using natural language processing for customer support",
+      title: "SQL Data Analysis with CASE Statements",
+      description: "Advanced SQL project using CASE statements for complex data analysis and reporting",
       image: "/placeholder.svg",
-      technologies: ["Python", "TensorFlow", "NLP", "Flask"],
-      category: "AI/ML",
-      github: "https://github.com/yourusername/project4",
-      demo: "https://project4-demo.com"
+      technologies: ["SQL", "Data Analysis", "CASE Statements", "MySQL"],
+      category: "Data Science",
+      github: "https://github.com/yourusername/sql-case-analysis",
+      demo: "https://github.com/yourusername/sql-case-analysis"
     },
     {
       title: "Blockchain Voting System",
@@ -130,7 +130,7 @@ export const Projects = () => {
               </div>
               <CardHeader>
                 <div className="flex justify-between items-start mb-2">
-                  <CardTitle className="text-lg font-semibold text-gray-900">Data Visualisation using google sheet</CardTitle>
+                  <CardTitle className="text-lg font-semibold text-gray-900">{project.title}</CardTitle>
                   <Badge variant="secondary" className="text-xs bg-blue-100 text-blue-800">
                     {project.category}
                   </Badge>

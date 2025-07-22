@@ -3,6 +3,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { ExternalLink, Github, Filter } from "lucide-react";
+import sqlCaseCertificate from "@/assets/sql-case-certificate.png";
 
 export const Projects = () => {
   const [activeFilter, setActiveFilter] = useState("All");
@@ -20,11 +21,12 @@ export const Projects = () => {
     {
       title: "SQL Data Analysis with CASE Statements",
       description: "Advanced SQL project using CASE statements for complex data analysis and reporting",
-      image: "/placeholder.svg",
+      image: sqlCaseCertificate,
       technologies: ["SQL", "Data Analysis", "CASE Statements", "MySQL"],
       category: "Data Science",
       github: "https://github.com/rajm5113/SQL-CASE-Statements/blob/main/My%20work%20on%20Querry%20Employee.sql",
-      demo: "https://github.com/rajm5113/SQL-CASE-Statements"
+      demo: "https://github.com/rajm5113/SQL-CASE-Statements",
+      certificateUrl: "https://drive.google.com/file/d/1xm33sP3bzcG5_VBH4K7S7ZvK8KNoM5hh/view?usp=sharing"
     },
     {
       title: "Mint Classics SQL Project",
@@ -112,12 +114,24 @@ export const Projects = () => {
           {filteredProjects.map((project, index) => (
             <Card key={index} className="gradient-hover-bg border-0 shadow-md hover:shadow-lg transition-all duration-300 group">
               <div className="relative overflow-hidden">
-                <img
-                  src={project.image}
-                  alt={project.title}
-                  className="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300"
-                />
-                <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-20 transition-all duration-300"></div>
+                <a 
+                  href={project.title === "SQL Data Analysis with CASE Statements" && project.certificateUrl ? project.certificateUrl : undefined} 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className={project.title === "SQL Data Analysis with CASE Statements" ? "cursor-pointer" : ""}
+                >
+                  <img
+                    src={project.image}
+                    alt={project.title}
+                    className="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300"
+                  />
+                  <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-20 transition-all duration-300"></div>
+                  {project.title === "SQL Data Analysis with CASE Statements" && (
+                    <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                      <span className="bg-black bg-opacity-70 text-white px-4 py-2 rounded-md">View Certificate</span>
+                    </div>
+                  )}
+                </a>
               </div>
               <CardHeader>
                 <div className="flex justify-between items-start mb-2">

@@ -73,10 +73,10 @@ export const Projects = () => {
       demo: "https://github.com/rajm5113/oaqjp-final-project-emb-ai/blob/main/app.py"
     },
     {
-      title: "Digital Marketing Certificate",
-      description: "Coursera Project Network certification demonstrating expertise in digital marketing strategies and implementation",
+      title: "Brand Marketing and SEO Tools using Wix",
+      description: "Comprehensive digital marketing project covering website creation, logo design, social media content, and SEO management using Wix platform",
       image: "/lovable-uploads/adfc3856-a948-474d-a3e5-36def4947fa2.png",
-      technologies: ["Digital Marketing", "Marketing Strategy", "Campaign Management", "Analytics"],
+      technologies: ["Wix", "SEO", "Logo Design", "Social Media Design", "Video Creation"],
       category: "Marketing",
       demo: "https://drive.google.com/file/d/1yQ2RqId1QRESvNe7nTFWe6wlm2WZV3p8/view?usp=sharing"
     }

@@ -64,13 +64,13 @@ export const Projects = () => {
       demo: "https://project5-demo.com"
     },
     {
-      title: "IoT Smart Home",
-      description: "IoT-based smart home automation system with remote monitoring",
+      title: "Emotion Detection Web-Application",
+      description: "AI-powered web application that detects emotions from facial expressions using machine learning",
       image: "/placeholder.svg",
-      technologies: ["Arduino", "Raspberry Pi", "MQTT", "React"],
-      category: "IoT",
-      github: "https://github.com/yourusername/project6",
-      demo: "https://project6-demo.com"
+      technologies: ["Python", "Flask", "TensorFlow", "OpenCV", "Machine Learning"],
+      category: "AI/ML",
+      github: "https://github.com/rajm5113/oaqjp-final-project-emb-ai",
+      demo: "https://github.com/rajm5113/oaqjp-final-project-emb-ai/blob/main/app.py"
     }
   ];
 

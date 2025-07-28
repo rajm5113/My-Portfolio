@@ -3,7 +3,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { ExternalLink, Github, Filter } from "lucide-react";
-import sqlCaseCertificate from "@/assets/sql-case-certificate.png";
+import courseraProjectNetwork from "@/assets/coursera-project-network.png";
 
 export const Projects = () => {
   const [activeFilter, setActiveFilter] = useState("All");
@@ -21,7 +21,7 @@ export const Projects = () => {
     {
       title: "SQL Data Analysis with CASE Statements",
       description: "Advanced SQL project using CASE statements for complex data analysis and reporting",
-      image: sqlCaseCertificate,
+      image: "/lovable-uploads/41a4b641-927c-4a8a-9b5d-b11d0d71cfce.png",
       technologies: ["SQL", "Data Analysis", "CASE Statements", "MySQL"],
       category: "Data Science",
       github: "https://github.com/rajm5113/SQL-CASE-Statements/blob/main/My%20work%20on%20Querry%20Employee.sql",

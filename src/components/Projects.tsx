@@ -123,10 +123,11 @@ export const Projects = () => {
             <Card key={index} className="gradient-hover-bg border-0 shadow-md hover:shadow-lg transition-all duration-300 group">
               <div className="relative overflow-hidden">
                 <a 
-                  href={project.title === "SQL Data Analysis with CASE Statements" && project.certificateUrl ? project.certificateUrl : undefined} 
+                  href={project.title === "SQL Data Analysis with CASE Statements" && project.certificateUrl ? project.certificateUrl : 
+                        project.title === "Brand Marketing and SEO Tools using Wix" ? project.demo : undefined} 
                   target="_blank" 
                   rel="noopener noreferrer"
-                  className={project.title === "SQL Data Analysis with CASE Statements" ? "cursor-pointer" : ""}
+                  className={project.title === "SQL Data Analysis with CASE Statements" || project.title === "Brand Marketing and SEO Tools using Wix" ? "cursor-pointer" : ""}
                 >
                   <img
                     src={project.image}
@@ -135,6 +136,11 @@ export const Projects = () => {
                   />
                   <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-20 transition-all duration-300"></div>
                   {project.title === "SQL Data Analysis with CASE Statements" && (
+                    <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                      <span className="bg-black bg-opacity-70 text-white px-4 py-2 rounded-md">View Certificate</span>
+                    </div>
+                  )}
+                  {project.title === "Brand Marketing and SEO Tools using Wix" && (
                     <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                       <span className="bg-black bg-opacity-70 text-white px-4 py-2 rounded-md">View Certificate</span>
                     </div>

@@ -87,6 +87,14 @@ export const Projects = () => {
       technologies: ["Mailchimp", "Email Marketing", "Campaign Design", "Marketing Automation"],
       category: "Marketing",
       demo: "https://drive.google.com/file/d/1KZ_N6Wm9wSaPUKxd-UF9shJm437m7ljS/view?usp=sharing"
+    },
+    {
+      title: "Google Ads for Beginners",
+      description: "Create a Google Ads account and set up first campaign structure. Create ad groups, do keyword research, set up audience targeting, and write ads. Learn how to use the tools and settings available to optimize campaigns and make them profitable.",
+      image: "/lovable-uploads/b520ce78-4b3f-43c4-af17-bad4cb794669.png",
+      technologies: ["Google Ads", "PPC", "Keyword Research", "Audience Targeting", "Campaign Optimization"],
+      category: "Marketing",
+      demo: "https://drive.google.com/file/d/1bKhW_egZ-up2dYAYxWEMhXVXW2ya0OdL/view?usp=sharing"
     }
   ];
 
@@ -133,10 +141,11 @@ export const Projects = () => {
                 <a 
                   href={project.title === "SQL Data Analysis with CASE Statements" && project.certificateUrl ? project.certificateUrl : 
                         project.title === "Brand Marketing and SEO Tools using Wix" ? project.demo :
-                        project.title === "Use Mailchimp to Build an E-mail Marketing Campaign" ? project.demo : undefined} 
+                        project.title === "Use Mailchimp to Build an E-mail Marketing Campaign" ? project.demo :
+                        project.title === "Google Ads for Beginners" ? project.demo : undefined} 
                   target="_blank" 
                   rel="noopener noreferrer"
-                  className={project.title === "SQL Data Analysis with CASE Statements" || project.title === "Brand Marketing and SEO Tools using Wix" || project.title === "Use Mailchimp to Build an E-mail Marketing Campaign" ? "cursor-pointer" : ""}
+                  className={project.title === "SQL Data Analysis with CASE Statements" || project.title === "Brand Marketing and SEO Tools using Wix" || project.title === "Use Mailchimp to Build an E-mail Marketing Campaign" || project.title === "Google Ads for Beginners" ? "cursor-pointer" : ""}
                 >
                   <img
                     src={project.image}
@@ -155,6 +164,11 @@ export const Projects = () => {
                     </div>
                   )}
                   {project.title === "Use Mailchimp to Build an E-mail Marketing Campaign" && (
+                    <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                      <span className="bg-black bg-opacity-70 text-white px-4 py-2 rounded-md">View Certificate</span>
+                    </div>
+                  )}
+                  {project.title === "Google Ads for Beginners" && (
                     <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                       <span className="bg-black bg-opacity-70 text-white px-4 py-2 rounded-md">View Certificate</span>
                     </div>

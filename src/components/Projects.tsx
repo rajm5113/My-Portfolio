@@ -83,7 +83,7 @@ export const Projects = () => {
     {
       title: "Use Mailchimp to Build an E-mail Marketing Campaign",
       description: "Use features in Mailchimp. Use design tools to create an email marketing campaign. Prepare an email marketing campaign for distribution.",
-      image: "/placeholder.svg",
+      image: "/lovable-uploads/4ef526c0-532e-4b82-af0e-d3144d506ef8.png",
       technologies: ["Mailchimp", "Email Marketing", "Campaign Design", "Marketing Automation"],
       category: "Marketing",
       demo: "https://drive.google.com/file/d/1KZ_N6Wm9wSaPUKxd-UF9shJm437m7ljS/view?usp=sharing"

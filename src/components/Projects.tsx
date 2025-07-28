@@ -79,6 +79,14 @@ export const Projects = () => {
       technologies: ["Wix", "SEO", "Logo Design", "Social Media Design", "Video Creation"],
       category: "Marketing",
       demo: "https://drive.google.com/file/d/1yQ2RqId1QRESvNe7nTFWe6wlm2WZV3p8/view?usp=sharing"
+    },
+    {
+      title: "Use Mailchimp to Build an E-mail Marketing Campaign",
+      description: "Use features in Mailchimp. Use design tools to create an email marketing campaign. Prepare an email marketing campaign for distribution.",
+      image: "/placeholder.svg",
+      technologies: ["Mailchimp", "Email Marketing", "Campaign Design", "Marketing Automation"],
+      category: "Marketing",
+      demo: "https://drive.google.com/file/d/1KZ_N6Wm9wSaPUKxd-UF9shJm437m7ljS/view?usp=sharing"
     }
   ];
 
@@ -124,10 +132,11 @@ export const Projects = () => {
               <div className="relative overflow-hidden">
                 <a 
                   href={project.title === "SQL Data Analysis with CASE Statements" && project.certificateUrl ? project.certificateUrl : 
-                        project.title === "Brand Marketing and SEO Tools using Wix" ? project.demo : undefined} 
+                        project.title === "Brand Marketing and SEO Tools using Wix" ? project.demo :
+                        project.title === "Use Mailchimp to Build an E-mail Marketing Campaign" ? project.demo : undefined} 
                   target="_blank" 
                   rel="noopener noreferrer"
-                  className={project.title === "SQL Data Analysis with CASE Statements" || project.title === "Brand Marketing and SEO Tools using Wix" ? "cursor-pointer" : ""}
+                  className={project.title === "SQL Data Analysis with CASE Statements" || project.title === "Brand Marketing and SEO Tools using Wix" || project.title === "Use Mailchimp to Build an E-mail Marketing Campaign" ? "cursor-pointer" : ""}
                 >
                   <img
                     src={project.image}
@@ -141,6 +150,11 @@ export const Projects = () => {
                     </div>
                   )}
                   {project.title === "Brand Marketing and SEO Tools using Wix" && (
+                    <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                      <span className="bg-black bg-opacity-70 text-white px-4 py-2 rounded-md">View Certificate</span>
+                    </div>
+                  )}
+                  {project.title === "Use Mailchimp to Build an E-mail Marketing Campaign" && (
                     <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                       <span className="bg-black bg-opacity-70 text-white px-4 py-2 rounded-md">View Certificate</span>
                     </div>

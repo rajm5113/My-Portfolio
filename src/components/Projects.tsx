@@ -103,6 +103,22 @@ export const Projects = () => {
       technologies: ["BigQuery", "Cloud SQL", "SQL", "Google Cloud Platform", "Database Management"],
       category: "Data Science",
       demo: "https://www.linkedin.com/posts/raj-mishra-4ba018202_googlecloud-bigquery-sql-activity-7346474037193187328-NcbJ?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAADOdqc4BXSSqByo0B3AvOMtTJmTGuunnQt8"
+    },
+    {
+      title: "Python Data Science Project",
+      description: "Comprehensive data science project involving web scraping, data analysis, and visualization using Python",
+      image: "/lovable-uploads/08d470cd-24fa-49bf-980e-0a5e191e5294.png",
+      technologies: ["Web Scraping", "Jupyter", "Data Analysis", "Pandas", "Data Science", "Data Manipulation", "Data Processing", "Matplotlib", "Data Collection", "Dashboard", "Python Programming", "Data Visualization"],
+      category: "Data Science",
+      demo: "https://drive.google.com/file/d/1FVtFA2mySD1Ls88x-5WrjjzNENFC4Vsw/view?usp=sharing"
+    },
+    {
+      title: "Python Project for Data Engineering",
+      description: "Advanced data engineering project focusing on ETL processes, database management, and API development",
+      image: "/lovable-uploads/08d470cd-24fa-49bf-980e-0a5e191e5294.png",
+      technologies: ["Style Guides", "Web Scraping", "Databases", "Data Manipulation", "Data Processing", "Unit Testing", "IDEs", "ETL", "SQL", "RESTful API", "Code Review", "Data Transformation"],
+      category: "Data Science",
+      demo: "https://drive.google.com/file/d/1SA9npU67bsfUR1PN0f_x-F-OWY6bS_Ko/view?usp=sharing"
     }
   ];
 
@@ -151,10 +167,12 @@ export const Projects = () => {
                         project.title === "Brand Marketing and SEO Tools using Wix" ? project.demo :
                         project.title === "Use Mailchimp to Build an E-mail Marketing Campaign" ? project.demo :
                         project.title === "Google Ads for Beginners" ? project.demo :
-                        project.title === "Introduction to SQL for BigQuery and Cloud SQL" ? project.demo : undefined} 
+                        project.title === "Introduction to SQL for BigQuery and Cloud SQL" ? project.demo :
+                        project.title === "Python Data Science Project" ? project.demo :
+                        project.title === "Python Project for Data Engineering" ? project.demo : undefined} 
                   target="_blank" 
                   rel="noopener noreferrer"
-                  className={project.title === "SQL Data Analysis with CASE Statements" || project.title === "Brand Marketing and SEO Tools using Wix" || project.title === "Use Mailchimp to Build an E-mail Marketing Campaign" || project.title === "Google Ads for Beginners" || project.title === "Introduction to SQL for BigQuery and Cloud SQL" ? "cursor-pointer" : ""}
+                  className={project.title === "SQL Data Analysis with CASE Statements" || project.title === "Brand Marketing and SEO Tools using Wix" || project.title === "Use Mailchimp to Build an E-mail Marketing Campaign" || project.title === "Google Ads for Beginners" || project.title === "Introduction to SQL for BigQuery and Cloud SQL" || project.title === "Python Data Science Project" || project.title === "Python Project for Data Engineering" ? "cursor-pointer" : ""}
                 >
                   <img
                     src={project.image}
@@ -183,6 +201,16 @@ export const Projects = () => {
                     </div>
                   )}
                   {project.title === "Introduction to SQL for BigQuery and Cloud SQL" && (
+                    <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                      <span className="bg-black bg-opacity-70 text-white px-4 py-2 rounded-md">View Certificate</span>
+                    </div>
+                  )}
+                  {project.title === "Python Data Science Project" && (
+                    <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                      <span className="bg-black bg-opacity-70 text-white px-4 py-2 rounded-md">View Certificate</span>
+                    </div>
+                  )}
+                  {project.title === "Python Project for Data Engineering" && (
                     <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                       <span className="bg-black bg-opacity-70 text-white px-4 py-2 rounded-md">View Certificate</span>
                     </div>

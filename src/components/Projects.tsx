@@ -77,7 +77,7 @@ export const Projects = () => {
       description: "Comprehensive digital marketing project covering website creation, logo design, social media content, and SEO management using Wix platform",
       image: "/lovable-uploads/adfc3856-a948-474d-a3e5-36def4947fa2.png",
       technologies: ["Wix", "SEO", "Logo Design", "Social Media Design", "Video Creation"],
-      category: "Marketing",
+      category: "Digital Marketing & E-Commerce",
       demo: "https://drive.google.com/file/d/1yQ2RqId1QRESvNe7nTFWe6wlm2WZV3p8/view?usp=sharing"
     },
     {
@@ -85,7 +85,7 @@ export const Projects = () => {
       description: "Use features in Mailchimp. Use design tools to create an email marketing campaign. Prepare an email marketing campaign for distribution.",
       image: "/lovable-uploads/4ef526c0-532e-4b82-af0e-d3144d506ef8.png",
       technologies: ["Mailchimp", "Email Marketing", "Campaign Design", "Marketing Automation"],
-      category: "Marketing",
+      category: "Digital Marketing & E-Commerce",
       demo: "https://drive.google.com/file/d/1KZ_N6Wm9wSaPUKxd-UF9shJm437m7ljS/view?usp=sharing"
     },
     {
@@ -93,7 +93,7 @@ export const Projects = () => {
       description: "Create a Google Ads account and set up first campaign structure. Create ad groups, do keyword research, set up audience targeting, and write ads. Learn how to use the tools and settings available to optimize campaigns and make them profitable.",
       image: "/lovable-uploads/b520ce78-4b3f-43c4-af17-bad4cb794669.png",
       technologies: ["Google Ads", "PPC", "Keyword Research", "Audience Targeting", "Campaign Optimization"],
-      category: "Marketing",
+      category: "Digital Marketing & E-Commerce",
       demo: "https://drive.google.com/file/d/1bKhW_egZ-up2dYAYxWEMhXVXW2ya0OdL/view?usp=sharing"
     },
     {
@@ -102,11 +102,11 @@ export const Projects = () => {
       image: "/lovable-uploads/c5fab4f6-e5d0-4c8e-b863-a0833a30cbda.png",
       technologies: ["BigQuery", "Cloud SQL", "SQL", "Google Cloud Platform", "Database Management"],
       category: "Data Science",
-      demo: "https://drive.google.com/file/d/1QXkN6xTjUZ80bBdfazcJMC7Es4uSBfPK/view?usp=sharing"
+      demo: "https://www.linkedin.com/posts/raj-mishra-4ba018202_googlecloud-bigquery-sql-activity-7346474037193187328-NcbJ?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAADOdqc4BXSSqByo0B3AvOMtTJmTGuunnQt8"
     }
   ];
 
-  const categories = ["All", "Data Science", "Digital Marketing & E-Commerce", "Finance", "Marketing", "AI/ML", "Web Development"];
+  const categories = ["All", "Data Science", "Digital Marketing & E-Commerce", "Finance", "AI/ML", "Web Development"];
 
   const filteredProjects = activeFilter === "All" 
     ? projects 

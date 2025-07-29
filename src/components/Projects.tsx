@@ -95,6 +95,14 @@ export const Projects = () => {
       technologies: ["Google Ads", "PPC", "Keyword Research", "Audience Targeting", "Campaign Optimization"],
       category: "Marketing",
       demo: "https://drive.google.com/file/d/1bKhW_egZ-up2dYAYxWEMhXVXW2ya0OdL/view?usp=sharing"
+    },
+    {
+      title: "Introduction to SQL for BigQuery and Cloud SQL",
+      description: "Identify the different components and hierarchies within the BigQuery console. Create a new Cloud SQL instance and load your exported CSV file as a new table. Run CREATE DATABASE, CREATE TABLE, DELETE, INSERT INTO, and UNION queries in Cloud SQL.",
+      image: "/lovable-uploads/c5fab4f6-e5d0-4c8e-b863-a0833a30cbda.png",
+      technologies: ["BigQuery", "Cloud SQL", "SQL", "Google Cloud Platform", "Database Management"],
+      category: "Data Science",
+      demo: "#"
     }
   ];
 

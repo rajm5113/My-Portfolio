@@ -31,7 +31,7 @@ export const Projects = () => {
     {
       title: "Mint Classics SQL Project",
       description: "MySQL project solving real business problems with advanced SQL queries and database optimization",
-      image: "/placeholder.svg",
+      image: "/lovable-uploads/6ffe9998-7459-4140-9dbf-c5e71090cd40.png",
       technologies: ["MySQL", "SQL", "Database Design", "Business Intelligence"],
       category: "Data Science",
       github: "https://github.com/rajm5113/mint_classics_project_SQL/blob/main/2%20mint_classics_project_queries.sql",
@@ -40,7 +40,7 @@ export const Projects = () => {
     {
       title: "Online Grocer Using MySQL Workbench",
       description: "Interactive dashboard for business intelligence and data visualization",
-      image: "/placeholder.svg",
+      image: "/lovable-uploads/6ffe9998-7459-4140-9dbf-c5e71090cd40.png",
       technologies: ["MySQL", "MySQL Workbench", "SQL", "Database Design"],
       category: "Data Science",
       github: "https://github.com/rajm5113/Manage-Data-for-an-Online-Grocer-Using-MySQL-Workbench/blob/main/3.1%20SQL%20Scripts.sql",
@@ -49,7 +49,7 @@ export const Projects = () => {
     {
       title: "Data Visualization using Google Sheet",
       description: "Comprehensive data analytics project showcasing data visualization and business insights",
-      image: "/placeholder.svg",
+      image: "/lovable-uploads/6eea356a-4004-4f6b-bf1c-da2bdb24fff4.png",
       technologies: ["Google Sheets", "Data Analysis", "Visualization", "Statistics"],
       category: "Data Science",
       demo: "https://docs.google.com/spreadsheets/d/1E3BhM77v7loZCfRfI_uGq0cpYaSd9slfjmeNsdFV8u0/edit?usp=sharing"
@@ -66,7 +66,7 @@ export const Projects = () => {
     {
       title: "Emotion Detection Web-Application",
       description: "AI-powered web application that detects emotions from facial expressions using machine learning",
-      image: "/placeholder.svg",
+      image: "/lovable-uploads/92310693-614f-4a1d-861f-7d2812fb0bbd.png",
       technologies: ["Python", "Flask", "TensorFlow", "OpenCV", "Machine Learning"],
       category: "AI/ML",
       github: "https://github.com/rajm5113/oaqjp-final-project-emb-ai",

@@ -1,5 +1,5 @@
 
-import { ArrowRight, Github, Linkedin, Mail } from "lucide-react";
+import { ArrowRight, Github, Linkedin, Mail, Download } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 export const Hero = () => {
@@ -49,6 +49,14 @@ export const Hero = () => {
               >
                 View My Work
                 <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
+              </Button>
+              <Button
+                variant="outline"
+                className="gradient-button-hover border-gray-300 text-gray-700 hover:bg-gray-50 px-8 py-3 text-base font-medium rounded-lg group"
+                size="lg"
+              >
+                <Download className="mr-2 h-5 w-5 group-hover:translate-y-0.5 transition-transform" />
+                Resume
               </Button>
               <Button
                 variant="outline"

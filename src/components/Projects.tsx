@@ -73,6 +73,15 @@ export const Projects = () => {
       demo: "https://github.com/rajm5113/oaqjp-final-project-emb-ai/blob/main/Pictures%20of%20emotion_detector_journey/6b.png"
     },
     {
+      title: "Image Captioning",
+      description: "AI-powered image captioning system that generates descriptive text for images using deep learning models",
+      image: "/lovable-uploads/08d470cd-24fa-49bf-980e-0a5e191e5294.png",
+      technologies: ["Python", "Deep Learning", "Computer Vision", "Neural Networks", "Image Processing"],
+      category: "AI/ML",
+      github: "https://github.com/rajm5113/image_captioning/blob/main/image_cap.ipynb",
+      demo: "https://github.com/rajm5113/image_captioning/blob/main/Screenshot%202025-08-01%20194602.png"
+    },
+    {
       title: "Brand Marketing and SEO Tools using Wix",
       description: "Comprehensive digital marketing project covering website creation, logo design, social media content, and SEO management using Wix platform",
       image: "/lovable-uploads/adfc3856-a948-474d-a3e5-36def4947fa2.png",

@@ -127,7 +127,7 @@ export const Projects = () => {
       image: "/lovable-uploads/08d470cd-24fa-49bf-980e-0a5e191e5294.png",
       technologies: ["Style Guides", "Web Scraping", "Databases", "Data Manipulation", "Data Processing", "Unit Testing", "IDEs", "ETL", "SQL", "RESTful API", "Code Review", "Data Transformation"],
       category: "Data Science",
-      demo: "https://github.com/rajm5113/ETL-pipeline-code.py"
+      demo: "https://github.com/rajm5113/ETL-pipeline-code.py/blob/main/practise.ipynb"
     }
   ];
 

@@ -70,7 +70,7 @@ export const Projects = () => {
       technologies: ["Python", "Flask", "TensorFlow", "OpenCV", "Machine Learning"],
       category: "AI/ML",
       github: "https://github.com/rajm5113/oaqjp-final-project-emb-ai",
-      demo: "https://github.com/rajm5113/oaqjp-final-project-emb-ai/blob/main/app.py"
+      demo: "https://github.com/rajm5113/oaqjp-final-project-emb-ai/blob/main/Pictures%20of%20emotion_detector_journey/6b.png"
     },
     {
       title: "Brand Marketing and SEO Tools using Wix",

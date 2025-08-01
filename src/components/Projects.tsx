@@ -119,7 +119,7 @@ export const Projects = () => {
       image: "/lovable-uploads/08d470cd-24fa-49bf-980e-0a5e191e5294.png",
       technologies: ["Web Scraping", "Jupyter", "Data Analysis", "Pandas", "Data Science", "Data Manipulation", "Data Processing", "Matplotlib", "Data Collection", "Dashboard", "Python Programming", "Data Visualization"],
       category: "Data Science",
-      demo: "https://drive.google.com/file/d/1FVtFA2mySD1Ls88x-5WrjjzNENFC4Vsw/view?usp=sharing"
+      demo: "https://www.linkedin.com/posts/raj-mishra-4ba018202_datascience-python-tesla-activity-7310125781806895105-kHO-?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAADOdqc4BXSSqByo0B3AvOMtTJmTGuunnQt8"
     },
     {
       title: "Python Project for Data Engineering",
@@ -127,7 +127,7 @@ export const Projects = () => {
       image: "/lovable-uploads/08d470cd-24fa-49bf-980e-0a5e191e5294.png",
       technologies: ["Style Guides", "Web Scraping", "Databases", "Data Manipulation", "Data Processing", "Unit Testing", "IDEs", "ETL", "SQL", "RESTful API", "Code Review", "Data Transformation"],
       category: "Data Science",
-      demo: "https://drive.google.com/file/d/1SA9npU67bsfUR1PN0f_x-F-OWY6bS_Ko/view?usp=sharing"
+      demo: "https://github.com/rajm5113/ETL-pipeline-code.py"
     }
   ];
 

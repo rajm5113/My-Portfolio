@@ -177,8 +177,8 @@ export const Projects = () => {
                         project.title === "Use Mailchimp to Build an E-mail Marketing Campaign" ? project.demo :
                         project.title === "Google Ads for Beginners" ? project.demo :
                         project.title === "Introduction to SQL for BigQuery and Cloud SQL" ? project.demo :
-                        project.title === "Python Data Science Project" ? project.demo :
-                        project.title === "Python Project for Data Engineering" ? project.demo : undefined} 
+                        project.title === "Python Data Science Project" ? "https://drive.google.com/file/d/1FVtFA2mySD1Ls88x-5WrjjzNENFC4Vsw/view?usp=sharing" :
+                        project.title === "Python Project for Data Engineering" ? "https://drive.google.com/file/d/1SA9npU67bsfUR1PN0f_x-F-OWY6bS_Ko/view?usp=sharing" : undefined}
                   target="_blank" 
                   rel="noopener noreferrer"
                   className={project.title === "SQL Data Analysis with CASE Statements" || project.title === "Brand Marketing and SEO Tools using Wix" || project.title === "Use Mailchimp to Build an E-mail Marketing Campaign" || project.title === "Google Ads for Beginners" || project.title === "Introduction to SQL for BigQuery and Cloud SQL" || project.title === "Python Data Science Project" || project.title === "Python Project for Data Engineering" ? "cursor-pointer" : ""}
@@ -221,7 +221,7 @@ export const Projects = () => {
                   )}
                   {project.title === "Python Project for Data Engineering" && (
                     <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                      <span className="bg-black bg-opacity-70 text-white px-4 py-2 rounded-md">View Certificate</span>
+                      <span className="bg-black bg-opacity-70 text-white px-4 py-2 rounded-md">View Project</span>
                     </div>
                   )}
                 </a>

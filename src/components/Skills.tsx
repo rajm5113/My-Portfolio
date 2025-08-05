@@ -54,21 +54,21 @@ export const Skills = () => {
     {
       name: "Data Analyst Certificate",
       issuer: "Google",
-      year: "2024",
+      year: "2025",
       link: "https://drive.google.com/file/d/1nP1eknYscyRrgSwNFDHNCNO_PrTNhWQq/view?usp=sharing",
       logo: googleLogo
     },
     {
       name: "Digital Marketing",
       issuer: "Google",
-      year: "2024",
+      year: "2025",
       link: "https://drive.google.com/file/d/1_14UnB-NWi5i0RIm-hvMyc62E8wNcvsP/view?usp=sharing",
       logo: googleLogo
     },
     {
       name: "Prompt Engineering",
       issuer: "IBM",
-      year: "2024",
+      year: "2025",
       link: "https://drive.google.com/file/d/1P_sVHlZ6cuP5SPFNDXQ9cGHpLrC5VFKD/view?usp=sharing",
       logo: ibmLogo
     },

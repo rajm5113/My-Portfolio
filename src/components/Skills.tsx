@@ -75,7 +75,7 @@ export const Skills = () => {
     {
       name: "AI Developer Course",
       issuer: "IBM (Pursuing)",
-      year: "2024",
+      year: "",
       logo: ibmLogo
     },
     {

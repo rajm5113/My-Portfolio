@@ -54,9 +54,16 @@ export const Hero = () => {
                 variant="outline"
                 className="gradient-button-hover border-gray-300 text-gray-700 hover:bg-gray-50 px-8 py-3 text-base font-medium rounded-lg group"
                 size="lg"
+                asChild
               >
-                <Download className="mr-2 h-5 w-5 group-hover:translate-y-0.5 transition-transform" />
-                Resume
+                <a
+                  href="https://drive.google.com/file/d/1vCDbETH961kbOgkTFggiQv1c8I3BzmGo/view?usp=sharing"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <Download className="mr-2 h-5 w-5 group-hover:translate-y-0.5 transition-transform" />
+                  Resume
+                </a>
               </Button>
               <Button
                 variant="outline"

@@ -94,6 +94,7 @@ export const Skills = () => {
       name: "Python for Everybody",
       issuer: "University of Michigan", 
       year: "2024",
+      link: "https://drive.google.com/file/d/1RQVWZ4tNne1lp5dRSW19dgoSN3Skdah0/view?usp=sharing",
       logo: universityMichiganLogo
     }
   ];

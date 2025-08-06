@@ -79,6 +79,12 @@ export const Skills = () => {
       logo: ibmLogo
     },
     {
+      name: "Power BI Data Analyst",
+      issuer: "Microsoft (Pursuing)",
+      year: "",
+      logo: "/lovable-uploads/2042d758-613b-408e-b1b6-4270a88ddb6d.png"
+    },
+    {
       name: "Web Design for Everybody",
       issuer: "University of Michigan",
       year: "2024",

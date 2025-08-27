@@ -150,7 +150,7 @@ export const Projects = () => {
     {
       title: "Python Libraries for Data Analysis - Numpy and Pandas",
       description: "Understand python programming fundamentals for data analysis. Define single and multi-dimensional NumPy arrays. Import HTML data in Pandas DataFrames",
-      image: courseraProjectNetwork,
+      image: "/lovable-uploads/6ffe9998-7459-4140-9dbf-c5e71090cd40.png",
       technologies: ["Data Analysis", "Computer Programming", "Pandas (Python Package)", "Data Science", "Data Manipulation", "Data Structures", "NumPy", "Python Programming"],
       category: "Data Science",
       github: "https://github.com/rajm5113/Python-for-Data-Analysis-Pandas-NumPy.git"

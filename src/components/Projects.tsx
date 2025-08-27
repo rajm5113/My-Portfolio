@@ -128,6 +128,15 @@ export const Projects = () => {
       technologies: ["Style Guides", "Web Scraping", "Databases", "Data Manipulation", "Data Processing", "Unit Testing", "IDEs", "ETL", "SQL", "RESTful API", "Code Review", "Data Transformation"],
       category: "Data Science",
       demo: "https://github.com/rajm5113/ETL-pipeline-code.py/blob/main/practise.ipynb"
+    },
+    {
+      title: "Voice-Assistant",
+      description: "AI-powered voice assistant application with natural language processing and speech recognition capabilities",
+      image: "/lovable-uploads/92310693-614f-4a1d-861f-7d2812fb0bbd.png",
+      technologies: ["Python", "AI", "NLP", "Speech Recognition", "Machine Learning", "Voice Processing"],
+      category: "AI/ML",
+      github: "https://huggingface.co/spaces/raj5113/Voice-Assistant/tree/main",
+      demo: "https://huggingface.co/spaces/raj5113/Voice-Assistant"
     }
   ];
 

@@ -137,6 +137,15 @@ export const Projects = () => {
       category: "AI/ML",
       github: "https://huggingface.co/spaces/raj5113/Voice-Assistant/tree/main",
       demo: "https://huggingface.co/spaces/raj5113/Voice-Assistant"
+    },
+    {
+      title: "AI Career Coach",
+      description: "AI-powered career coaching application that provides personalized guidance and recommendations for professional development",
+      image: "/lovable-uploads/92310693-614f-4a1d-861f-7d2812fb0bbd.png",
+      technologies: ["Python", "AI", "NLP", "Machine Learning", "Career Guidance", "Recommendation Systems"],
+      category: "AI/ML",
+      github: "https://huggingface.co/spaces/raj5113/ai-career-coach/tree/main",
+      demo: "https://huggingface.co/spaces/raj5113/ai-career-coach"
     }
   ];
 

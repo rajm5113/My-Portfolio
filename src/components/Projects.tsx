@@ -146,6 +146,14 @@ export const Projects = () => {
       category: "AI/ML",
       github: "https://huggingface.co/spaces/raj5113/ai-career-coach/tree/main",
       demo: "https://huggingface.co/spaces/raj5113/ai-career-coach"
+    },
+    {
+      title: "Python Libraries for Data Analysis - Numpy and Pandas",
+      description: "Understand python programming fundamentals for data analysis. Define single and multi-dimensional NumPy arrays. Import HTML data in Pandas DataFrames",
+      image: courseraProjectNetwork,
+      technologies: ["Data Analysis", "Computer Programming", "Pandas (Python Package)", "Data Science", "Data Manipulation", "Data Structures", "NumPy", "Python Programming"],
+      category: "Data Science",
+      github: "https://github.com/rajm5113/Python-for-Data-Analysis-Pandas-NumPy.git"
     }
   ];
 
@@ -270,12 +278,14 @@ export const Projects = () => {
                       </a>
                     </Button>
                   )}
-                  <Button size="sm" asChild className="gradient-button-hover bg-blue-600 hover:bg-blue-700">
-                    <a href={project.demo} target="_blank" rel="noopener noreferrer">
-                      <ExternalLink className="h-4 w-4 mr-2" />
-                      Demo
-                    </a>
-                  </Button>
+                  {project.demo && (
+                    <Button size="sm" asChild className="gradient-button-hover bg-blue-600 hover:bg-blue-700">
+                      <a href={project.demo} target="_blank" rel="noopener noreferrer">
+                        <ExternalLink className="h-4 w-4 mr-2" />
+                        Demo
+                      </a>
+                    </Button>
+                  )}
                 </div>
               </CardContent>
             </Card>

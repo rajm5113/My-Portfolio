@@ -57,7 +57,7 @@ export const Hero = () => {
                 asChild
               >
                 <a
-                  href="https://drive.google.com/file/d/1vCDbETH961kbOgkTFggiQv1c8I3BzmGo/view?usp=sharing"
+                  href="https://www.canva.com/design/DAGvPfWzqes/OQPU5MHJFmK-Hy4epVZ0Nw/edit?utm_content=DAGvPfWzqes&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
                   target="_blank"
                   rel="noopener noreferrer"
                 >

@@ -10,15 +10,6 @@ export const Projects = () => {
 
   const projects = [
     {
-      title: "E-commerce Platform",
-      description: "Full-stack e-commerce solution with payment integration and admin dashboard",
-      image: "/placeholder.svg",
-      technologies: ["React", "Node.js", "MongoDB", "Stripe"],
-      category: "Web Development",
-      github: "https://github.com/yourusername/project1",
-      demo: "https://project1-demo.com"
-    },
-    {
       title: "SQL Data Analysis with CASE Statements",
       description: "Advanced SQL project using CASE statements for complex data analysis and reporting",
       image: "/lovable-uploads/41a4b641-927c-4a8a-9b5d-b11d0d71cfce.png",

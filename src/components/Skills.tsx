@@ -66,6 +66,13 @@ export const Skills = () => {
       logo: googleLogo
     },
     {
+      name: "Power BI Data Analyst",
+      issuer: "Microsoft (Pursuing)",
+      year: "",
+      link: "https://drive.google.com/file/d/16Xp0Bv_iIQIGWhGgfKmH0lb_nTp6UH-2/view?usp=sharing",
+      logo: "/lovable-uploads/2042d758-613b-408e-b1b6-4270a88ddb6d.png"
+    },
+    {
       name: "Prompt Engineering",
       issuer: "IBM",
       year: "2025",
@@ -77,12 +84,6 @@ export const Skills = () => {
       issuer: "IBM (Pursuing)",
       year: "",
       logo: ibmLogo
-    },
-    {
-      name: "Power BI Data Analyst",
-      issuer: "Microsoft (Pursuing)",
-      year: "",
-      logo: "/lovable-uploads/2042d758-613b-408e-b1b6-4270a88ddb6d.png"
     },
     {
       name: "Web Design for Everybody",

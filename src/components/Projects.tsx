@@ -77,7 +77,7 @@ export const Projects = () => {
       description: "Team-based retail entrepreneurship project managing a two-day stall at Yellow Living Hostel. Sold anime figurines, Marvel/DC keychains, and aesthetic analogue watches. Achieved ₹33,000 in sales with optimized pricing and inventory management, breaking even on Day 1.",
       image: "/lovable-uploads/startup-simulation-ioi.png",
       technologies: ["Retail Management", "Sales Strategy", "Financial Tracking", "Inventory Management", "Customer Engagement", "Product Analysis"],
-      category: "Digital Marketing & E-Commerce",
+      category: "Business & Marketing",
       pptUrl: "https://drive.google.com/file/d/1eyfCR4Olho03w8t3jGjpwtSHpt_mQdSm/view?usp=sharing",
       financeUrl: "https://docs.google.com/spreadsheets/d/1AcKhdIoTgY-0GTaGxZHOnYyyrPzrhi4E/edit?usp=sharing&ouid=104718452063063399362&rtpof=true&sd=true"
     },
@@ -86,7 +86,7 @@ export const Projects = () => {
       description: "Comprehensive digital marketing project covering website creation, logo design, social media content, and SEO management using Wix platform",
       image: "/lovable-uploads/adfc3856-a948-474d-a3e5-36def4947fa2.png",
       technologies: ["Wix", "SEO", "Logo Design", "Social Media Design", "Video Creation"],
-      category: "Digital Marketing & E-Commerce",
+      category: "Business & Marketing",
       demo: "https://drive.google.com/file/d/1yQ2RqId1QRESvNe7nTFWe6wlm2WZV3p8/view?usp=sharing"
     },
     {
@@ -94,7 +94,7 @@ export const Projects = () => {
       description: "Use features in Mailchimp. Use design tools to create an email marketing campaign. Prepare an email marketing campaign for distribution.",
       image: "/lovable-uploads/4ef526c0-532e-4b82-af0e-d3144d506ef8.png",
       technologies: ["Mailchimp", "Email Marketing", "Campaign Design", "Marketing Automation"],
-      category: "Digital Marketing & E-Commerce",
+      category: "Business & Marketing",
       demo: "https://drive.google.com/file/d/1KZ_N6Wm9wSaPUKxd-UF9shJm437m7ljS/view?usp=sharing"
     },
     {
@@ -102,7 +102,7 @@ export const Projects = () => {
       description: "Create a Google Ads account and set up first campaign structure. Create ad groups, do keyword research, set up audience targeting, and write ads. Learn how to use the tools and settings available to optimize campaigns and make them profitable.",
       image: "/lovable-uploads/b520ce78-4b3f-43c4-af17-bad4cb794669.png",
       technologies: ["Google Ads", "PPC", "Keyword Research", "Audience Targeting", "Campaign Optimization"],
-      category: "Digital Marketing & E-Commerce",
+      category: "Business & Marketing",
       demo: "https://drive.google.com/file/d/1bKhW_egZ-up2dYAYxWEMhXVXW2ya0OdL/view?usp=sharing"
     },
     {
@@ -165,7 +165,7 @@ export const Projects = () => {
     }
   ];
 
-  const categories = ["All", "Data Science", "Digital Marketing & E-Commerce", "Finance", "AI/ML", "Web Development"];
+  const categories = ["All", "Data Science", "Business & Marketing", "Finance", "AI/ML", "Web Development"];
 
   const filteredProjects = activeFilter === "All" 
     ? projects 

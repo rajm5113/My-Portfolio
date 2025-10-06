@@ -97,6 +97,15 @@ export const Projects = () => {
       demo: "https://drive.google.com/file/d/1bKhW_egZ-up2dYAYxWEMhXVXW2ya0OdL/view?usp=sharing"
     },
     {
+      title: "Startup Simulation – Last Mile Program",
+      description: "Team-based retail entrepreneurship project managing a two-day stall at Yellow Living Hostel. Sold anime figurines, Marvel/DC keychains, and aesthetic analogue watches. Achieved ₹33,000 in sales with optimized pricing and inventory management, breaking even on Day 1.",
+      image: "/lovable-uploads/b520ce78-4b3f-43c4-af17-bad4cb794669.png",
+      technologies: ["Retail Management", "Sales Strategy", "Financial Tracking", "Inventory Management", "Customer Engagement", "Product Analysis"],
+      category: "Digital Marketing & E-Commerce",
+      pptUrl: "",
+      financeUrl: ""
+    },
+    {
       title: "Introduction to SQL for BigQuery and Cloud SQL",
       description: "Identify the different components and hierarchies within the BigQuery console. Create a new Cloud SQL instance and load your exported CSV file as a new table. Run CREATE DATABASE, CREATE TABLE, DELETE, INSERT INTO, and UNION queries in Cloud SQL.",
       image: "/lovable-uploads/c5fab4f6-e5d0-4c8e-b863-a0833a30cbda.png",
@@ -288,6 +297,22 @@ export const Projects = () => {
                       <a href={project.demo} target="_blank" rel="noopener noreferrer">
                         <ExternalLink className="h-4 w-4 mr-2" />
                         Demo
+                      </a>
+                    </Button>
+                  )}
+                  {project.pptUrl !== undefined && (
+                    <Button size="sm" asChild className="gradient-button-hover bg-green-600 hover:bg-green-700">
+                      <a href={project.pptUrl || "#"} target="_blank" rel="noopener noreferrer">
+                        <ExternalLink className="h-4 w-4 mr-2" />
+                        PPT
+                      </a>
+                    </Button>
+                  )}
+                  {project.financeUrl !== undefined && (
+                    <Button size="sm" asChild className="gradient-button-hover bg-purple-600 hover:bg-purple-700">
+                      <a href={project.financeUrl || "#"} target="_blank" rel="noopener noreferrer">
+                        <ExternalLink className="h-4 w-4 mr-2" />
+                        Finance
                       </a>
                     </Button>
                   )}

@@ -99,11 +99,11 @@ export const Projects = () => {
     {
       title: "Startup Simulation – Last Mile Program",
       description: "Team-based retail entrepreneurship project managing a two-day stall at Yellow Living Hostel. Sold anime figurines, Marvel/DC keychains, and aesthetic analogue watches. Achieved ₹33,000 in sales with optimized pricing and inventory management, breaking even on Day 1.",
-      image: "/lovable-uploads/b520ce78-4b3f-43c4-af17-bad4cb794669.png",
+      image: "/lovable-uploads/startup-simulation-ioi.png",
       technologies: ["Retail Management", "Sales Strategy", "Financial Tracking", "Inventory Management", "Customer Engagement", "Product Analysis"],
       category: "Digital Marketing & E-Commerce",
-      pptUrl: "",
-      financeUrl: ""
+      pptUrl: "https://drive.google.com/file/d/1eyfCR4Olho03w8t3jGjpwtSHpt_mQdSm/view?usp=sharing",
+      financeUrl: "https://docs.google.com/spreadsheets/d/1AcKhdIoTgY-0GTaGxZHOnYyyrPzrhi4E/edit?usp=sharing&ouid=104718452063063399362&rtpof=true&sd=true"
     },
     {
       title: "Introduction to SQL for BigQuery and Cloud SQL",

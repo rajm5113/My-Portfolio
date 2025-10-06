@@ -73,6 +73,15 @@ export const Projects = () => {
       demo: "https://github.com/rajm5113/image_captioning/blob/main/Screenshot%202025-08-01%20194602.png"
     },
     {
+      title: "Startup Simulation – Last Mile Program",
+      description: "Team-based retail entrepreneurship project managing a two-day stall at Yellow Living Hostel. Sold anime figurines, Marvel/DC keychains, and aesthetic analogue watches. Achieved ₹33,000 in sales with optimized pricing and inventory management, breaking even on Day 1.",
+      image: "/lovable-uploads/startup-simulation-ioi.png",
+      technologies: ["Retail Management", "Sales Strategy", "Financial Tracking", "Inventory Management", "Customer Engagement", "Product Analysis"],
+      category: "Digital Marketing & E-Commerce",
+      pptUrl: "https://drive.google.com/file/d/1eyfCR4Olho03w8t3jGjpwtSHpt_mQdSm/view?usp=sharing",
+      financeUrl: "https://docs.google.com/spreadsheets/d/1AcKhdIoTgY-0GTaGxZHOnYyyrPzrhi4E/edit?usp=sharing&ouid=104718452063063399362&rtpof=true&sd=true"
+    },
+    {
       title: "Brand Marketing and SEO Tools using Wix",
       description: "Comprehensive digital marketing project covering website creation, logo design, social media content, and SEO management using Wix platform",
       image: "/lovable-uploads/adfc3856-a948-474d-a3e5-36def4947fa2.png",
@@ -95,15 +104,6 @@ export const Projects = () => {
       technologies: ["Google Ads", "PPC", "Keyword Research", "Audience Targeting", "Campaign Optimization"],
       category: "Digital Marketing & E-Commerce",
       demo: "https://drive.google.com/file/d/1bKhW_egZ-up2dYAYxWEMhXVXW2ya0OdL/view?usp=sharing"
-    },
-    {
-      title: "Startup Simulation – Last Mile Program",
-      description: "Team-based retail entrepreneurship project managing a two-day stall at Yellow Living Hostel. Sold anime figurines, Marvel/DC keychains, and aesthetic analogue watches. Achieved ₹33,000 in sales with optimized pricing and inventory management, breaking even on Day 1.",
-      image: "/lovable-uploads/startup-simulation-ioi.png",
-      technologies: ["Retail Management", "Sales Strategy", "Financial Tracking", "Inventory Management", "Customer Engagement", "Product Analysis"],
-      category: "Digital Marketing & E-Commerce",
-      pptUrl: "https://drive.google.com/file/d/1eyfCR4Olho03w8t3jGjpwtSHpt_mQdSm/view?usp=sharing",
-      financeUrl: "https://docs.google.com/spreadsheets/d/1AcKhdIoTgY-0GTaGxZHOnYyyrPzrhi4E/edit?usp=sharing&ouid=104718452063063399362&rtpof=true&sd=true"
     },
     {
       title: "Introduction to SQL for BigQuery and Cloud SQL",

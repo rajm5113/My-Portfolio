@@ -116,7 +116,7 @@ export const Projects = () => {
     {
       title: "Retail Data Analysis",
       description: "Online retail data analysis project using Python and Pandas",
-      image: "/lovable-uploads/retail-data-analysis.png",
+      image: "/lovable-uploads/coursera-retail-analysis.png",
       technologies: ["Data Analysis", "Data Manipulation", "Descriptive Statistics", "Business Analytics", "Data-Driven Decision-Making", "Analytical Skills", "Data Cleansing", "Jupyter", "Exploratory Data Analysis", "Pandas", "Customer Analysis", "Matplotlib", "Data Visualization", "Statistical Analysis", "Trend Analysis", "Python Programming"],
       category: "Data Science",
       github: "https://github.com/rajm5113/Retail-data-analysis/blob/main/online_retail.ipynb",

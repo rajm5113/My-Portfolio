@@ -114,6 +114,15 @@ export const Projects = () => {
       demo: "https://www.linkedin.com/posts/raj-mishra-4ba018202_googlecloud-bigquery-sql-activity-7346474037193187328-NcbJ?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAADOdqc4BXSSqByo0B3AvOMtTJmTGuunnQt8"
     },
     {
+      title: "Retail Data Analysis",
+      description: "Online retail data analysis project using Python and Pandas",
+      image: "/lovable-uploads/retail-data-analysis.png",
+      technologies: ["Data Analysis", "Data Manipulation", "Descriptive Statistics", "Business Analytics", "Data-Driven Decision-Making", "Analytical Skills", "Data Cleansing", "Jupyter", "Exploratory Data Analysis", "Pandas", "Customer Analysis", "Matplotlib", "Data Visualization", "Statistical Analysis", "Trend Analysis", "Python Programming"],
+      category: "Data Science",
+      github: "https://github.com/rajm5113/Retail-data-analysis/blob/main/online_retail.ipynb",
+      demo: "https://github.com/rajm5113/Retail-data-analysis/blob/main/README.md"
+    },
+    {
       title: "Python Data Science Project",
       description: "Comprehensive data science project involving web scraping, data analysis, and visualization using Python",
       image: "/lovable-uploads/08d470cd-24fa-49bf-980e-0a5e191e5294.png",

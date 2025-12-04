@@ -87,7 +87,8 @@ export const Projects = () => {
       image: "/lovable-uploads/adfc3856-a948-474d-a3e5-36def4947fa2.png",
       technologies: ["Wix", "SEO", "Logo Design", "Social Media Design", "Video Creation"],
       category: "Business & Marketing",
-      demo: "https://drive.google.com/file/d/1yQ2RqId1QRESvNe7nTFWe6wlm2WZV3p8/view?usp=sharing"
+      demo: "https://drive.google.com/file/d/1yQ2RqId1QRESvNe7nTFWe6wlm2WZV3p8/view",
+      demoLabel: "View"
     },
     {
       title: "Use Mailchimp to Build an E-mail Marketing Campaign",
@@ -95,7 +96,8 @@ export const Projects = () => {
       image: "/lovable-uploads/4ef526c0-532e-4b82-af0e-d3144d506ef8.png",
       technologies: ["Mailchimp", "Email Marketing", "Campaign Design", "Marketing Automation"],
       category: "Business & Marketing",
-      demo: "https://drive.google.com/file/d/1KZ_N6Wm9wSaPUKxd-UF9shJm437m7ljS/view?usp=sharing"
+      demo: "https://www.coursera.org/account/accomplishments/verify/CJA35ZQ0TF6V",
+      demoLabel: "View"
     },
     {
       title: "Google Ads for Beginners",
@@ -103,7 +105,8 @@ export const Projects = () => {
       image: "/lovable-uploads/b520ce78-4b3f-43c4-af17-bad4cb794669.png",
       technologies: ["Google Ads", "PPC", "Keyword Research", "Audience Targeting", "Campaign Optimization"],
       category: "Business & Marketing",
-      demo: "https://drive.google.com/file/d/1bKhW_egZ-up2dYAYxWEMhXVXW2ya0OdL/view?usp=sharing"
+      demo: "https://www.coursera.org/account/accomplishments/verify/7E8SWZDVY1CS",
+      demoLabel: "View"
     },
     {
       title: "Introduction to SQL for BigQuery and Cloud SQL",
@@ -315,7 +318,7 @@ export const Projects = () => {
                     <Button size="sm" asChild className="gradient-button-hover bg-blue-600 hover:bg-blue-700">
                       <a href={project.demo} target="_blank" rel="noopener noreferrer">
                         <ExternalLink className="h-4 w-4 mr-2" />
-                        Demo
+                        {project.demoLabel || "Demo"}
                       </a>
                     </Button>
                   )}

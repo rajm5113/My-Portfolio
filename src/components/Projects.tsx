@@ -179,7 +179,7 @@ export const Projects = () => {
       technologies: ["YouTube Campaign", "Instagram Marketing", "Google Ads Analytics", "Campaign Boosting", "Impressions Tracking", "Profile Activity Analysis", "Social Media Marketing", "Brand Marketing"],
       category: "Business & Marketing",
       pptUrl: "https://drive.google.com/file/d/10dmwMKFD9fw197qVMnaofOOTwGXjeYI2/view?usp=sharing",
-      instagramUrl: "https://www.instagram.com/reel/DNWAuvAomc8/?utm_source=ig_web_copy_link",
+      instagramUrl: "https://1drv.ms/v/c/bc5e214ec772491d/EZfLJJvvTSlHuDGpdv7hKeQBdJK2KEftbU3LaDkNUZT0Ug?e=ax6H5Q",
       linkedinUrl: "https://www.linkedin.com/posts/raj-mishra-4ba018202_royalenfield-pwinstituteofinnovation-filmmaking-activity-7363757873463529472-nk-E?utm_source=share&utm_medium=member_desktop&rcm=ACoAADOdqc4BXSSqByo0B3AvOMtTJmTGuunnQt8"
     }
   ];

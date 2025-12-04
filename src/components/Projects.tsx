@@ -171,6 +171,16 @@ export const Projects = () => {
       technologies: ["Data Storage Technologies", "Data Analysis", "SQL", "Database Design", "Data Visualization", "Statistical Visualization", "Power BI", "Data Storage", "Statistical Reporting", "Data Integration", "Data Literacy", "Data Manipulation"],
       category: "Data Science",
       demo: "https://www.linkedin.com/posts/raj-mishra-4ba018202_my-workspace-slides-activity-7373558772088303617-OZsW?utm_source=share&utm_medium=member_desktop&rcm=ACoAADOdqc4BXSSqByo0B3AvOMtTJmTGuunnQt8"
+    },
+    {
+      title: "Royal Enfield Brand Campaign",
+      description: "Comprehensive brand marketing campaign for Royal Enfield executed across YouTube and Instagram, tracking impressions, views, profile activity, and engagement metrics using Google Ads analytics and campaign boosting strategies.",
+      image: "/lovable-uploads/royal-enfield-campaign.png",
+      technologies: ["YouTube Campaign", "Instagram Marketing", "Google Ads Analytics", "Campaign Boosting", "Impressions Tracking", "Profile Activity Analysis", "Social Media Marketing", "Brand Marketing"],
+      category: "Business & Marketing",
+      pptUrl: "https://drive.google.com/file/d/10dmwMKFD9fw197qVMnaofOOTwGXjeYI2/view?usp=sharing",
+      instagramUrl: "https://www.instagram.com/reel/DNWAuvAomc8/?igsh=Njh1OXVza2h0Nnpi",
+      linkedinUrl: "https://www.linkedin.com/posts/raj-mishra-4ba018202_royalenfield-pwinstituteofinnovation-filmmaking-activity-7363757873463529472-nk-E?utm_source=share&utm_medium=member_desktop&rcm=ACoAADOdqc4BXSSqByo0B3AvOMtTJmTGuunnQt8"
     }
   ];
 
@@ -322,6 +332,22 @@ export const Projects = () => {
                       <a href={project.financeUrl || "#"} target="_blank" rel="noopener noreferrer">
                         <ExternalLink className="h-4 w-4 mr-2" />
                         Finance
+                      </a>
+                    </Button>
+                  )}
+                  {project.instagramUrl !== undefined && (
+                    <Button size="sm" asChild className="gradient-button-hover bg-pink-600 hover:bg-pink-700">
+                      <a href={project.instagramUrl || "#"} target="_blank" rel="noopener noreferrer">
+                        <ExternalLink className="h-4 w-4 mr-2" />
+                        Watch Ad
+                      </a>
+                    </Button>
+                  )}
+                  {project.linkedinUrl !== undefined && (
+                    <Button size="sm" asChild className="gradient-button-hover bg-sky-600 hover:bg-sky-700">
+                      <a href={project.linkedinUrl || "#"} target="_blank" rel="noopener noreferrer">
+                        <ExternalLink className="h-4 w-4 mr-2" />
+                        LinkedIn
                       </a>
                     </Button>
                   )}

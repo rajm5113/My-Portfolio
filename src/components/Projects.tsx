@@ -4,6 +4,7 @@ import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { ExternalLink, Github, Filter } from "lucide-react";
 import courseraProjectNetwork from "@/assets/coursera-project-network.png";
+import ibmLogo from "@/assets/ibm-logo.png";
 
 export const Projects = () => {
   const [activeFilter, setActiveFilter] = useState("All");
@@ -52,6 +53,15 @@ export const Projects = () => {
       technologies: ["Google Sheets", "Data Analysis", "Visualization", "Statistics"],
       category: "Data Science",
       demo: "https://docs.google.com/spreadsheets/d/1E3BhM77v7loZCfRfI_uGq0cpYaSd9slfjmeNsdFV8u0/edit?usp=sharing"
+    },
+    {
+      title: "The Business Intelligence (BI) Analyst Capstone Project",
+      description: "Applied data analysis techniques to derive meaningful insights and uncover patterns. Designed and executed a practical BI project showcasing proficiency in BI tools like IBM Cognos Analytics, Tableau, Looker, and Excel with pivot tables, regression analysis, and data visualization.",
+      image: ibmLogo,
+      technologies: ["Data Analysis", "Data Manipulation", "IBM Cognos Analytics", "Pivot Tables And Charts", "Regression Analysis", "Looker", "Tableau Software", "Business Intelligence", "Microsoft Excel", "Microsoft PowerPoint", "Presentations"],
+      category: "Data Science",
+      demo: "https://drive.google.com/drive/folders/15GXAp3qKdlJoVhNfw4_ri40CTSfQFfP7?usp=sharing",
+      demoLabel: "View"
     },
     {
       title: "Blockchain Voting System",

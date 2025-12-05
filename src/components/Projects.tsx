@@ -19,6 +19,15 @@ export const Projects = () => {
 
   const projects = [
     {
+      title: "The Business Intelligence (BI) Analyst Capstone Project",
+      description: "Applied data analysis techniques to derive meaningful insights and uncover patterns. Designed and executed a practical BI project showcasing proficiency in BI tools like IBM Cognos Analytics, Tableau, Looker, and Excel with pivot tables, regression analysis, and data visualization.",
+      image: ibmLogo,
+      technologies: ["Data Analysis", "Data Manipulation", "IBM Cognos Analytics", "Pivot Tables And Charts", "Regression Analysis", "Looker", "Tableau Software", "Business Intelligence", "Microsoft Excel", "Microsoft PowerPoint", "Presentations"],
+      category: "Data Science",
+      demo: "https://drive.google.com/file/d/1LSZ2hZWUEgFnzmBPE-OL_re-3GkenVeC/view?usp=sharing",
+      demoLabel: "PPT"
+    },
+    {
       title: "SQL Data Analysis with CASE Statements",
       description: "Advanced SQL project using CASE statements for complex data analysis and reporting",
       image: "/lovable-uploads/41a4b641-927c-4a8a-9b5d-b11d0d71cfce.png",
@@ -53,15 +62,6 @@ export const Projects = () => {
       technologies: ["Google Sheets", "Data Analysis", "Visualization", "Statistics"],
       category: "Data Science",
       demo: "https://docs.google.com/spreadsheets/d/1E3BhM77v7loZCfRfI_uGq0cpYaSd9slfjmeNsdFV8u0/edit?usp=sharing"
-    },
-    {
-      title: "The Business Intelligence (BI) Analyst Capstone Project",
-      description: "Applied data analysis techniques to derive meaningful insights and uncover patterns. Designed and executed a practical BI project showcasing proficiency in BI tools like IBM Cognos Analytics, Tableau, Looker, and Excel with pivot tables, regression analysis, and data visualization.",
-      image: ibmLogo,
-      technologies: ["Data Analysis", "Data Manipulation", "IBM Cognos Analytics", "Pivot Tables And Charts", "Regression Analysis", "Looker", "Tableau Software", "Business Intelligence", "Microsoft Excel", "Microsoft PowerPoint", "Presentations"],
-      category: "Data Science",
-      demo: "https://drive.google.com/file/d/1LSZ2hZWUEgFnzmBPE-OL_re-3GkenVeC/view?usp=sharing",
-      demoLabel: "PPT"
     },
     {
       title: "Blockchain Voting System",

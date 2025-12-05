@@ -60,8 +60,8 @@ export const Projects = () => {
       image: ibmLogo,
       technologies: ["Data Analysis", "Data Manipulation", "IBM Cognos Analytics", "Pivot Tables And Charts", "Regression Analysis", "Looker", "Tableau Software", "Business Intelligence", "Microsoft Excel", "Microsoft PowerPoint", "Presentations"],
       category: "Data Science",
-      demo: "https://drive.google.com/drive/folders/15GXAp3qKdlJoVhNfw4_ri40CTSfQFfP7?usp=sharing",
-      demoLabel: "View"
+      demo: "https://drive.google.com/file/d/1LSZ2hZWUEgFnzmBPE-OL_re-3GkenVeC/view?usp=sharing",
+      demoLabel: "PPT"
     },
     {
       title: "Blockchain Voting System",

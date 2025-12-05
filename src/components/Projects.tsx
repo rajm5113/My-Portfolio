@@ -25,7 +25,8 @@ export const Projects = () => {
       technologies: ["Data Analysis", "Data Manipulation", "IBM Cognos Analytics", "Pivot Tables And Charts", "Regression Analysis", "Looker", "Tableau Software", "Business Intelligence", "Microsoft Excel", "Microsoft PowerPoint", "Presentations"],
       category: "Data Science",
       demo: "https://drive.google.com/file/d/1LSZ2hZWUEgFnzmBPE-OL_re-3GkenVeC/view?usp=sharing",
-      demoLabel: "PPT"
+      demoLabel: "PPT",
+      certificateUrl: "https://drive.google.com/file/d/14FGGGejA3Q6CFegogwhhaOlPY_pAPxSi/view?usp=sharing"
     },
     {
       title: "Deploy and Maintain Power BI Assets and Capstone project",
@@ -246,7 +247,8 @@ export const Projects = () => {
             <Card key={index} className="gradient-hover-bg border-0 shadow-md hover:shadow-lg transition-all duration-300 group">
               <div className="relative overflow-hidden">
                 <a 
-                  href={project.title === "SQL Data Analysis with CASE Statements" && project.certificateUrl ? project.certificateUrl : 
+                  href={project.title === "The Business Intelligence (BI) Analyst Capstone Project" && project.certificateUrl ? project.certificateUrl :
+                        project.title === "SQL Data Analysis with CASE Statements" && project.certificateUrl ? project.certificateUrl : 
                         project.title === "Brand Marketing and SEO Tools using Wix" ? project.demo :
                         project.title === "Use Mailchimp to Build an E-mail Marketing Campaign" ? project.demo :
                         project.title === "Google Ads for Beginners" ? project.demo :
@@ -256,7 +258,7 @@ export const Projects = () => {
                         project.title === "Python Libraries for Data Analysis - Numpy and Pandas" ? "https://drive.google.com/file/d/1s6NNB5StY5Uua4ONoU_n3a2y03O_fpbE/view?usp=sharing" : undefined}
                   target="_blank" 
                   rel="noopener noreferrer"
-                  className={project.title === "SQL Data Analysis with CASE Statements" || project.title === "Brand Marketing and SEO Tools using Wix" || project.title === "Use Mailchimp to Build an E-mail Marketing Campaign" || project.title === "Google Ads for Beginners" || project.title === "Introduction to SQL for BigQuery and Cloud SQL" || project.title === "Python Data Science Project" || project.title === "Python Project for Data Engineering" || project.title === "Python Libraries for Data Analysis - Numpy and Pandas" ? "cursor-pointer" : ""}
+                  className={project.title === "The Business Intelligence (BI) Analyst Capstone Project" || project.title === "SQL Data Analysis with CASE Statements" || project.title === "Brand Marketing and SEO Tools using Wix" || project.title === "Use Mailchimp to Build an E-mail Marketing Campaign" || project.title === "Google Ads for Beginners" || project.title === "Introduction to SQL for BigQuery and Cloud SQL" || project.title === "Python Data Science Project" || project.title === "Python Project for Data Engineering" || project.title === "Python Libraries for Data Analysis - Numpy and Pandas" ? "cursor-pointer" : ""}
                 >
                   <img
                     src={project.image}
@@ -264,6 +266,11 @@ export const Projects = () => {
                     className="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300"
                   />
                   <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-20 transition-all duration-300"></div>
+                  {project.title === "The Business Intelligence (BI) Analyst Capstone Project" && (
+                    <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                      <span className="bg-black bg-opacity-70 text-white px-4 py-2 rounded-md">View Certificate</span>
+                    </div>
+                  )}
                   {project.title === "SQL Data Analysis with CASE Statements" && (
                     <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                       <span className="bg-black bg-opacity-70 text-white px-4 py-2 rounded-md">View Certificate</span>

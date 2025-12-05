@@ -28,6 +28,14 @@ export const Projects = () => {
       demoLabel: "PPT"
     },
     {
+      title: "Deploy and Maintain Power BI Assets and Capstone project",
+      description: "Comprehensive Power BI project covering data storage technologies, analysis, visualization, and reporting with advanced statistical insights and data integration techniques",
+      image: "/lovable-uploads/power-bi-project.png",
+      technologies: ["Data Storage Technologies", "Data Analysis", "SQL", "Database Design", "Data Visualization", "Statistical Visualization", "Power BI", "Data Storage", "Statistical Reporting", "Data Integration", "Data Literacy", "Data Manipulation"],
+      category: "Data Science",
+      demo: "https://www.linkedin.com/posts/raj-mishra-4ba018202_my-workspace-slides-activity-7373558772088303617-OZsW?utm_source=share&utm_medium=member_desktop&rcm=ACoAADOdqc4BXSSqByo0B3AvOMtTJmTGuunnQt8"
+    },
+    {
       title: "SQL Data Analysis with CASE Statements",
       description: "Advanced SQL project using CASE statements for complex data analysis and reporting",
       image: "/lovable-uploads/41a4b641-927c-4a8a-9b5d-b11d0d71cfce.png",
@@ -184,14 +192,6 @@ export const Projects = () => {
       technologies: ["Data Analysis", "Computer Programming", "Pandas (Python Package)", "Data Science", "Data Manipulation", "Data Structures", "NumPy", "Python Programming"],
       category: "Data Science",
       github: "https://github.com/rajm5113/Python-for-Data-Analysis-Pandas-NumPy.git"
-    },
-    {
-      title: "Deploy and Maintain Power BI Assets and Capstone project",
-      description: "Comprehensive Power BI project covering data storage technologies, analysis, visualization, and reporting with advanced statistical insights and data integration techniques",
-      image: "/lovable-uploads/power-bi-project.png",
-      technologies: ["Data Storage Technologies", "Data Analysis", "SQL", "Database Design", "Data Visualization", "Statistical Visualization", "Power BI", "Data Storage", "Statistical Reporting", "Data Integration", "Data Literacy", "Data Manipulation"],
-      category: "Data Science",
-      demo: "https://www.linkedin.com/posts/raj-mishra-4ba018202_my-workspace-slides-activity-7373558772088303617-OZsW?utm_source=share&utm_medium=member_desktop&rcm=ACoAADOdqc4BXSSqByo0B3AvOMtTJmTGuunnQt8"
     },
     {
       title: "Royal Enfield Brand Campaign",

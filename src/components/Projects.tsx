@@ -104,7 +104,7 @@ export const Projects = () => {
       description: "Team-based retail entrepreneurship project managing a two-day stall at Yellow Living Hostel. Sold anime figurines, Marvel/DC keychains, and aesthetic analogue watches. Achieved ₹33,000 in sales with optimized pricing and inventory management, breaking even on Day 1.",
       image: "/lovable-uploads/startup-simulation-ioi.png",
       technologies: ["Retail Management", "Sales Strategy", "Financial Tracking", "Inventory Management", "Customer Engagement", "Product Analysis"],
-      category: "Entrepreneurship",
+      category: "Entrepreneurship/Business",
       pptUrl: "https://drive.google.com/file/d/1eyfCR4Olho03w8t3jGjpwtSHpt_mQdSm/view?usp=sharing",
       financeUrl: "https://docs.google.com/spreadsheets/d/1AcKhdIoTgY-0GTaGxZHOnYyyrPzrhi4E/edit?usp=sharing&ouid=104718452063063399362&rtpof=true&sd=true"
     },
@@ -206,7 +206,7 @@ export const Projects = () => {
     }
   ];
 
-  const categories = ["All", "Data Science", "Marketing", "Entrepreneurship", "Finance", "AI/ML", "Web Development"];
+  const categories = ["All", "Data Science", "Marketing", "Entrepreneurship/Business", "Finance", "AI/ML", "Web Development"];
 
   const filteredProjects = activeFilter === "All" 
     ? projects 

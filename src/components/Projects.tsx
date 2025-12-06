@@ -118,6 +118,16 @@ export const Projects = () => {
       demoLabel: "View"
     },
     {
+      title: "Royal Enfield Brand Campaign",
+      description: "Comprehensive brand marketing campaign for Royal Enfield executed across YouTube and Instagram, tracking impressions, views, profile activity, and engagement metrics using Google Ads analytics and campaign boosting strategies.",
+      image: "/lovable-uploads/royal-enfield-campaign.png",
+      technologies: ["YouTube Campaign", "Instagram Marketing", "Google Ads Analytics", "Campaign Boosting", "Impressions Tracking", "Profile Activity Analysis", "Social Media Marketing", "Brand Marketing"],
+      category: "Marketing",
+      pptUrl: "https://drive.google.com/file/d/10dmwMKFD9fw197qVMnaofOOTwGXjeYI2/view?usp=sharing",
+      instagramUrl: "https://1drv.ms/v/c/bc5e214ec772491d/EZfLJJvvTSlHuDGpdv7hKeQBdJK2KEftbU3LaDkNUZT0Ug?e=ax6H5Q",
+      linkedinUrl: "https://www.linkedin.com/posts/raj-mishra-4ba018202_royalenfield-pwinstituteofinnovation-filmmaking-activity-7363757873463529472-nk-E?utm_source=share&utm_medium=member_desktop&rcm=ACoAADOdqc4BXSSqByo0B3AvOMtTJmTGuunnQt8"
+    },
+    {
       title: "Brand Marketing and SEO Tools using Wix",
       description: "Comprehensive digital marketing project covering website creation, logo design, social media content, and SEO management using Wix platform",
       image: "/lovable-uploads/adfc3856-a948-474d-a3e5-36def4947fa2.png",
@@ -203,16 +213,6 @@ export const Projects = () => {
       category: "Data Science",
       github: "https://github.com/rajm5113/Python-for-Data-Analysis-Pandas-NumPy.git"
     },
-    {
-      title: "Royal Enfield Brand Campaign",
-      description: "Comprehensive brand marketing campaign for Royal Enfield executed across YouTube and Instagram, tracking impressions, views, profile activity, and engagement metrics using Google Ads analytics and campaign boosting strategies.",
-      image: "/lovable-uploads/royal-enfield-campaign.png",
-      technologies: ["YouTube Campaign", "Instagram Marketing", "Google Ads Analytics", "Campaign Boosting", "Impressions Tracking", "Profile Activity Analysis", "Social Media Marketing", "Brand Marketing"],
-      category: "Marketing",
-      pptUrl: "https://drive.google.com/file/d/10dmwMKFD9fw197qVMnaofOOTwGXjeYI2/view?usp=sharing",
-      instagramUrl: "https://1drv.ms/v/c/bc5e214ec772491d/EZfLJJvvTSlHuDGpdv7hKeQBdJK2KEftbU3LaDkNUZT0Ug?e=ax6H5Q",
-      linkedinUrl: "https://www.linkedin.com/posts/raj-mishra-4ba018202_royalenfield-pwinstituteofinnovation-filmmaking-activity-7363757873463529472-nk-E?utm_source=share&utm_medium=member_desktop&rcm=ACoAADOdqc4BXSSqByo0B3AvOMtTJmTGuunnQt8"
-    }
   ];
 
   const categories = ["All", "Data Science", "Marketing", "Entrepreneurship/Business", "Finance", "AI/ML", "Web Development"];

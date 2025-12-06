@@ -109,6 +109,15 @@ export const Projects = () => {
       financeUrl: "https://docs.google.com/spreadsheets/d/1AcKhdIoTgY-0GTaGxZHOnYyyrPzrhi4E/edit?usp=sharing&ouid=104718452063063399362&rtpof=true&sd=true"
     },
     {
+      title: "Project Crafting Portfolio-Ready SEO Content",
+      description: "Complete end-to-end SEO process from content creation to technical and off-page optimization. Learned to write SEO-ready content that is clear, engaging, and grammatically correct. Optimized blog content for on-page SEO including keyword placement, readability, and meta optimization. Created and validated schema markup (structured data) for blog posts. Evaluated and selected relevant backlinking opportunities based on site relevance, domain authority (DA), and link type.",
+      image: ibmLogo,
+      technologies: ["SEO Content Writing", "On-Page SEO", "Keyword Optimization", "Meta Optimization", "Schema Markup", "Structured Data", "Backlinking", "Domain Authority", "Technical SEO", "Off-Page Optimization"],
+      category: "Marketing",
+      demo: "https://1drv.ms/f/c/bc5e214ec772491d/IgD8iY8DZBijQLaOpjX4ObK_Adj_HPxrEwyHFI26fKc9AaY?e=IuYDGJ",
+      demoLabel: "View"
+    },
+    {
       title: "Brand Marketing and SEO Tools using Wix",
       description: "Comprehensive digital marketing project covering website creation, logo design, social media content, and SEO management using Wix platform",
       image: "/lovable-uploads/adfc3856-a948-474d-a3e5-36def4947fa2.png",

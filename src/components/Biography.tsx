@@ -39,10 +39,10 @@ export const Biography = () => {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
             <p className="text-lg text-gray-600 leading-relaxed">
-              I'm Raj Mishra, a graduate from PW IOI Institute of Innovation, where I completed my studies 
-              in the School of Management in Entrepreneurship & Technology. I have successfully completed 
-              my 1st year at PW IOI and earned my Bachelor of Science degree, building a strong foundation 
-              in both technical skills and business acumen.
+              I'm Raj Mishra, currently studying at PW IOI Institute of Innovation in the School of 
+              Management in Entrepreneurship & Technology, where I have successfully completed my 1st year. 
+              I also hold a Bachelor of Science degree from Dr. B.R. Ambedkar University, building a strong 
+              foundation in both technical skills and business acumen.
             </p>
             <p className="text-lg text-gray-600 leading-relaxed">
               My primary areas of interest span across Technology - particularly AI/ML and Data Science - 

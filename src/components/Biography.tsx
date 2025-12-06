@@ -39,10 +39,10 @@ export const Biography = () => {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
             <p className="text-lg text-gray-600 leading-relaxed">
-              I'm Raj Mishra, a passionate student at PW IOI Institute of Innovation, where I'm pursuing 
-              my studies in the School of Management in Entrepreneurship & Technology. Currently in my 
-              2nd semester of the 1st year, I'm building a strong foundation in both technical skills 
-              and business acumen.
+              I'm Raj Mishra, a graduate from PW IOI Institute of Innovation, where I completed my studies 
+              in the School of Management in Entrepreneurship & Technology. I have successfully completed 
+              my 1st year at PW IOI and earned my Bachelor of Science degree, building a strong foundation 
+              in both technical skills and business acumen.
             </p>
             <p className="text-lg text-gray-600 leading-relaxed">
               My primary areas of interest span across Technology - particularly AI/ML and Data Science - 
@@ -51,8 +51,8 @@ export const Biography = () => {
               University of Michigan via Coursera.
             </p>
             <p className="text-lg text-gray-600 leading-relaxed">
-              Beyond academics, I'm actively involved in hackathons at PW IOI and collaborative events 
-              with AWS, constantly working on capstone projects and building a robust portfolio on GitHub. 
+              Throughout my academic journey, I was actively involved in hackathons at PW IOI and collaborative 
+              events with AWS, working on capstone projects and building a robust portfolio on GitHub. 
               My goal is to bridge the gap between cutting-edge technology and innovative business solutions.
             </p>
           </div>

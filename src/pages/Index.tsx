@@ -11,19 +11,29 @@ import { Footer } from "@/components/Footer";
 
 const Index = () => {
   useEffect(() => {
+    // Handle hash-based deep linking (e.g., /#projects)
+    const hash = window.location.hash;
+    if (hash) {
+      setTimeout(() => {
+        const element = document.querySelector(hash);
+        if (element) {
+          element.scrollIntoView({ behavior: 'smooth' });
+        }
+      }, 100);
+    }
+
+    // Handle query param category scrolling
     const urlParams = new URLSearchParams(window.location.search);
     const category = urlParams.get('category');
     if (category) {
-      // Wait for page to fully load then scroll to projects
-      const scrollToProjects = () => {
+      setTimeout(() => {
         const projectsSection = document.getElementById('projects');
         if (projectsSection) {
           const yOffset = -60;
           const y = projectsSection.getBoundingClientRect().top + window.scrollY + yOffset;
           window.scrollTo({ top: y, behavior: 'smooth' });
         }
-      };
-      setTimeout(scrollToProjects, 500);
+      }, 500);
     }
   }, []);
 

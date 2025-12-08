@@ -14,6 +14,13 @@ export const Projects = () => {
     const category = urlParams.get('category');
     if (category) {
       setActiveFilter(decodeURIComponent(category));
+      // Auto-scroll to projects section
+      setTimeout(() => {
+        const projectsSection = document.getElementById('projects');
+        if (projectsSection) {
+          projectsSection.scrollIntoView({ behavior: 'smooth' });
+        }
+      }, 100);
     }
   }, []);
 

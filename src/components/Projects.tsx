@@ -14,13 +14,17 @@ export const Projects = () => {
     const category = urlParams.get('category');
     if (category) {
       setActiveFilter(decodeURIComponent(category));
-      // Auto-scroll to projects section
-      setTimeout(() => {
+      // Auto-scroll to projects section after page loads
+      const scrollToProjects = () => {
         const projectsSection = document.getElementById('projects');
         if (projectsSection) {
-          projectsSection.scrollIntoView({ behavior: 'smooth' });
+          const yOffset = -80; // Offset for navbar
+          const y = projectsSection.getBoundingClientRect().top + window.pageYOffset + yOffset;
+          window.scrollTo({ top: y, behavior: 'smooth' });
         }
-      }, 100);
+      };
+      // Wait for page to fully render
+      setTimeout(scrollToProjects, 300);
     }
   }, []);
 

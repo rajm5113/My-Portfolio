@@ -14,17 +14,6 @@ export const Projects = () => {
     const category = urlParams.get('category');
     if (category) {
       setActiveFilter(decodeURIComponent(category));
-      // Auto-scroll to projects section after page loads
-      const scrollToProjects = () => {
-        const projectsSection = document.getElementById('projects');
-        if (projectsSection) {
-          const yOffset = -80; // Offset for navbar
-          const y = projectsSection.getBoundingClientRect().top + window.pageYOffset + yOffset;
-          window.scrollTo({ top: y, behavior: 'smooth' });
-        }
-      };
-      // Wait for page to fully render
-      setTimeout(scrollToProjects, 300);
     }
   }, []);
 

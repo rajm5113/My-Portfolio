@@ -115,7 +115,8 @@ export const Projects = () => {
       technologies: ["Target Audience", "Presentations", "Smart Goals", "Search Engine Optimization", "Paid Media", "Business Analysis", "Digital Advertising", "Social Media Strategy", "Social Media Marketing", "Marketing Analytics", "Content Strategy", "E-Commerce", "Digital Marketing", "Social Media Campaigns", "Web Analytics", "LinkedIn", "Market Analysis", "Advertising Campaigns", "Content Marketing"],
       category: "Marketing",
       demo: "https://onedrive.live.com/?id=%2Fpersonal%2Fbc5e214ec772491d%2FDocuments%2FCourcera%2F1%20Projects%2FCapstone%20Project%20Digital%20Marketing%20and%20Growth%20Hacking",
-      demoLabel: "View"
+      demoLabel: "View",
+      pptUrl: "https://1drv.ms/b/c/bc5e214ec772491d/IQDd2mZIFMrbQbzbwtS90T1wAURPNXwwnh0eOWd2Hb9XlDY?e=6d0XMp"
     },
     {
       title: "Project Crafting Portfolio-Ready SEO Content",

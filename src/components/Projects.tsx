@@ -114,7 +114,7 @@ export const Projects = () => {
       image: ibmLogo,
       technologies: ["Target Audience", "Presentations", "Smart Goals", "Search Engine Optimization", "Paid Media", "Business Analysis", "Digital Advertising", "Social Media Strategy", "Social Media Marketing", "Marketing Analytics", "Content Strategy", "E-Commerce", "Digital Marketing", "Social Media Campaigns", "Web Analytics", "LinkedIn", "Market Analysis", "Advertising Campaigns", "Content Marketing"],
       category: "Marketing",
-      demo: "https://www.coursera.org/learn/capstone-project-digital-marketing-and-growth-hacking",
+      demo: "https://onedrive.live.com/?id=%2Fpersonal%2Fbc5e214ec772491d%2FDocuments%2FCourcera%2F1%20Projects%2FCapstone%20Project%20Digital%20Marketing%20and%20Growth%20Hacking",
       demoLabel: "View"
     },
     {

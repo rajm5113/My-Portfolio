@@ -109,6 +109,15 @@ export const Projects = () => {
       financeUrl: "https://docs.google.com/spreadsheets/d/1AcKhdIoTgY-0GTaGxZHOnYyyrPzrhi4E/edit?usp=sharing&ouid=104718452063063399362&rtpof=true&sd=true"
     },
     {
+      title: "Capstone Project Digital Marketing and Growth Hacking",
+      description: "Demonstrated digital marketing and AI skills in a portfolio-worthy capstone project. Designed and executed digital marketing strategies using SEO, content marketing, paid advertising, social media, and email marketing. Developed campaign assets including briefs, content plans, ad strategies, email sequences, and AI-enhanced materials tailored to target audiences. Applied audience targeting, budgeting, channel selection, and performance forecasting to simulate real-world marketing challenges.",
+      image: ibmLogo,
+      technologies: ["Target Audience", "Presentations", "Smart Goals", "Search Engine Optimization", "Paid Media", "Business Analysis", "Digital Advertising", "Social Media Strategy", "Social Media Marketing", "Marketing Analytics", "Content Strategy", "E-Commerce", "Digital Marketing", "Social Media Campaigns", "Web Analytics", "LinkedIn", "Market Analysis", "Advertising Campaigns", "Content Marketing"],
+      category: "Marketing",
+      demo: "https://www.coursera.org/learn/capstone-project-digital-marketing-and-growth-hacking",
+      demoLabel: "View"
+    },
+    {
       title: "Project Crafting Portfolio-Ready SEO Content",
       description: "Complete end-to-end SEO process from content creation to technical and off-page optimization. Learned to write SEO-ready content that is clear, engaging, and grammatically correct. Optimized blog content for on-page SEO including keyword placement, readability, and meta optimization. Created and validated schema markup (structured data) for blog posts. Evaluated and selected relevant backlinking opportunities based on site relevance, domain authority (DA), and link type.",
       image: ibmLogo,

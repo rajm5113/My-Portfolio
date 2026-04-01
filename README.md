@@ -1,73 +1,76 @@
-# Welcome to your Lovable project
+# Raj Mishra | Portfolio
 
-## Project info
+[![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev/)
+[![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)](https://reactjs.org/)
+[![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
+[![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white)](https://vercel.com/)
 
-**URL**: https://lovable.dev/projects/009b9b96-0110-4a2f-b100-baf701b1f274
+A modern, responsive portfolio website built with React, Vite, and Tailwind CSS. This site showcases my journey as a student at PW IOI Institute of Innovation, my technical skills, certifications, and entrepreneurial ventures.
 
-## How can I edit this code?
+🔗 **Live Demo**: [https://my-portfolio-chi-hazel-71.vercel.app/](https://my-portfolio-chi-hazel-71.vercel.app/)
 
-There are several ways of editing your application.
+---
 
-**Use Lovable**
+## 🚀 About Me
+I am a dedicated student at **PW IOI Institute of Innovation**, pursuing a degree in **Entrepreneurship, Management & Technology**. My focus lies at the intersection of business strategy and technical innovation. I am passionate about AI/ML, data science, and building products that solve real-world problems.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/009b9b96-0110-4a2f-b100-baf701b1f274) and start prompting.
+- 🎓 **Education**: PW IOI Institute of Innovation
+- 📍 **Location**: India
+- 🌱 **Specializations**: Google Data Analytics, IBM AI Developer, Microsoft Power BI
 
-Changes made via Lovable will be committed automatically to this repo.
+---
 
-**Use your preferred IDE**
+## 🛠️ Tech Stack
+This project leverages the latest web technologies:
+- **Frontend**: React.js with TypeScript
+- **Styling**: Tailwind CSS & Shadcn UI
+- **Build Tool**: Vite
+- **Animations**: Lucide React icons, Tailwind Animate
+- **Deployment**: Vercel
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+---
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## ✨ Key Features
+- **Modern UI**: Clean, minimalist, and professional design.
+- **Fully Responsive**: Optimized for all screen sizes (Mobile, Tablet, Desktop).
+- **Skill Showcase**: Categorized list of technical and business skills.
+- **Certifications**: Integrated display of credentials from Google, IBM, and Microsoft.
+- **Projects Gallery**: Portfolio of marketing campaigns and technical projects.
 
-Follow these steps:
+---
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+## 💻 Getting Started
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+### Prerequisites
+- Node.js (v18 or higher)
+- npm or bun
 
-# Step 3: Install the necessary dependencies.
-npm i
+### Installation
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/rajm5113/My-Portfolio.git
+   ```
+2. **Navigate to the directory**:
+   ```bash
+   cd My-Portfolio
+   ```
+3. **Install dependencies**:
+   ```bash
+   npm install
+   ```
+4. **Run development server**:
+   ```bash
+   npm run dev
+   ```
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+---
 
-**Edit a file directly in GitHub**
+## 📬 Contact
+- **Email**: [raj1103mishra@gmail.com](mailto:raj1103mishra@gmail.com)
+- **LinkedIn**: [Raj Mishra](https://www.linkedin.com/in/raj-mishra-4ba018202/)
+- **GitHub**: [@rajm5113](https://github.com/rajm5113)
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+---
 
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/009b9b96-0110-4a2f-b100-baf701b1f274) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+Developed by **Raj Mishra**

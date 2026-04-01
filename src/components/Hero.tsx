@@ -18,7 +18,7 @@ export const Hero = () => {
           <div className="animate-fade-in mb-8">
             <div className="w-32 h-32 mx-auto mb-6 rounded-full bg-gray-100 flex items-center justify-center overflow-hidden shadow-lg">
               <img 
-                src="/lovable-uploads/ec1fb0b5-565d-4b1d-ae79-b6c70b3b2535.png" 
+                src="/profile.png" 
                 alt="Raj Mishra" 
                 className="w-full h-full object-cover"
               />

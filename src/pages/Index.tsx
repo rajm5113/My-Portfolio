@@ -11,6 +11,7 @@ import { Footer } from "@/components/Footer";
 import { Chatbot } from "@/components/Chatbot";
 import { ScrollProgress } from "@/components/ScrollProgress";
 import { StatsCounter } from "@/components/StatsCounter";
+import { Experience } from "@/components/Experience";
 
 // Reusable scroll-reveal wrapper
 const ScrollReveal = ({
@@ -126,6 +127,24 @@ const Index = () => {
 
         <div className="scroll-fade-up">
           <Skills />
+        </div>
+
+        {/* Wave divider before Experience */}
+        <div className="wave-divider bg-white">
+          <svg viewBox="0 0 1440 60" xmlns="http://www.w3.org/2000/svg">
+            <path fill="#f9fafb" d="M0,20 C360,60 1080,0 1440,30 L1440,60 L0,60 Z" />
+          </svg>
+        </div>
+
+        <div className="scroll-fade-up">
+          <Experience />
+        </div>
+
+        {/* Wave divider before Projects */}
+        <div className="wave-divider bg-gray-50">
+          <svg viewBox="0 0 1440 60" xmlns="http://www.w3.org/2000/svg">
+            <path fill="#ffffff" d="M0,30 C480,0 960,60 1440,20 L1440,60 L0,60 Z" />
+          </svg>
         </div>
 
         <div className="scroll-fade-up">

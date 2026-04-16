@@ -64,6 +64,12 @@ export const Navigation = () => {
                 Skills
               </button>
               <button
+                onClick={() => scrollToSection("experience")}
+                className="text-gray-700 hover:text-blue-600 px-4 py-2 text-sm font-medium transition-colors rounded-lg hover:bg-gray-50"
+              >
+                Experience
+              </button>
+              <button
                 onClick={() => scrollToSection("accomplishments")}
                 className="text-gray-700 hover:text-blue-600 px-4 py-2 text-sm font-medium transition-colors rounded-lg hover:bg-gray-50"
               >
@@ -135,6 +141,12 @@ export const Navigation = () => {
                 className="text-gray-700 hover:text-blue-600 block px-3 py-2 text-base font-medium w-full text-left rounded-lg hover:bg-gray-50"
               >
                 Skills
+              </button>
+              <button
+                onClick={() => scrollToSection("experience")}
+                className="text-gray-700 hover:text-blue-600 block px-3 py-2 text-base font-medium w-full text-left rounded-lg hover:bg-gray-50"
+              >
+                Experience
               </button>
               <button
                 onClick={() => scrollToSection("accomplishments")}

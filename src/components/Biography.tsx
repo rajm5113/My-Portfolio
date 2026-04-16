@@ -7,22 +7,22 @@ export const Biography = () => {
     {
       icon: GraduationCap,
       title: "Education",
-      description: "PW IOI Institute of Innovation - School of Management in Entrepreneurship & Technology"
+      description: "Manipal University Jaipur - Master of Computer Applications (MCA)"
     },
     {
       icon: Award,
-      title: "Certifications",
-      description: "Specialized courses from Google, IBM, University of Michigan through Coursera"
-    },
-    {
-      icon: Users,
-      title: "Hackathons",
-      description: "Multiple participations at PW IOI and PW IOI with AWS events"
+      title: "Bootcamp",
+      description: "PW Institute of Innovation - Entrepreneurship & Technology Bootcamp"
     },
     {
       icon: Lightbulb,
-      title: "Projects",
-      description: "Capstone projects and numerous GitHub repositories showcasing technical skills"
+      title: "Certifications",
+      description: "Specialized courses from Google, IBM, University of Michigan via Coursera"
+    },
+    {
+      icon: Users,
+      title: "Hackathons & Projects",
+      description: "Active participant in AWS events and builder of a robust technical portfolio"
     }
   ];
 
@@ -39,21 +39,22 @@ export const Biography = () => {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
             <p className="text-lg text-gray-600 leading-relaxed">
-              I'm Raj Mishra, currently studying at PW IOI Institute of Innovation in the School of 
-              Management in Entrepreneurship & Technology, where I have successfully completed my 1st year. 
-              I also hold a Bachelor of Science degree from Dr. B.R. Ambedkar University, building a strong 
-              foundation in both technical skills and business acumen.
+              I'm Raj Mishra, currently pursuing my Master of Computer Applications (MCA) at Manipal University Jaipur. 
+              My academic foundation is built upon a Bachelor of Science from Dr. B.R. Ambedkar University, 
+              complemented by an intensive Entrepreneurship & Technology bootcamp at the PW Institute of Innovation. 
+              This diverse educational path has given me a unique blend of deep technical expertise and strong business acumen.
             </p>
             <p className="text-lg text-gray-600 leading-relaxed">
-              My primary areas of interest span across Technology - particularly AI/ML and Data Science - 
-              and Business domains including entrepreneurship, management, and critical thinking. I actively 
-              pursue knowledge through specialized courses from industry leaders like Google, IBM, and the 
-              University of Michigan via Coursera.
+              My primary focus lies at the intersection of innovative technology and problem-solving—particularly within 
+              Data Science, AI/ML, and software development. I am deeply passionate about continuously expanding my knowledge 
+              and stay ahead of the curve through specialized certifications from industry leaders like Google, IBM, 
+              and the University of Michigan.
             </p>
             <p className="text-lg text-gray-600 leading-relaxed">
-              Throughout my academic journey, I was actively involved in hackathons at PW IOI and collaborative 
-              events with AWS, working on capstone projects and building a robust portfolio on GitHub. 
-              My goal is to bridge the gap between cutting-edge technology and innovative business solutions.
+              Throughout my journey, I have actively participated in hackathons and AWS collaborative events, 
+              developing capstone projects and maintaining a robust portfolio on GitHub. My ultimate goal is to leverage 
+              my comprehensive background to bridge the gap between cutting-edge technical capabilities and scalable, 
+              real-world business solutions.
             </p>
           </div>
 

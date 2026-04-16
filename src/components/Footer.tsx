@@ -10,7 +10,7 @@ export const Footer = () => {
           <div>
             <h3 className="text-xl font-semibold mb-4">Raj Mishra</h3>
             <p className="text-gray-300 text-sm leading-relaxed">
-              Student at PW IOI Institute of Innovation, passionate about technology, 
+              Student at Manipal University, passionate about technology, 
               entrepreneurship, and creating innovative solutions that make a difference.
             </p>
           </div>

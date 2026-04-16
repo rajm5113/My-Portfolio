@@ -33,10 +33,10 @@ export const Hero = () => {
               </span>
             </h1>
             <p className="text-xl sm:text-2xl gradient-warmup mb-4 max-w-3xl mx-auto font-light">
-              Student at PW IOI Institute of Innovation
+              MCA Student at Manipal University Jaipur
             </p>
             <p className="text-lg text-gray-500 mb-12 max-w-2xl mx-auto leading-relaxed">
-              Pursuing Entrepreneurship, Management & Technology with specializations from Google, IBM, Microsoft, and more
+              Bridging Technology and Business with focus in Data Science, AI/ML, and certifications from Google, IBM, and Microsoft
             </p>
           </div>
 

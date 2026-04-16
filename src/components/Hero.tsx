@@ -1,8 +1,46 @@
-
+import { useEffect, useRef } from "react";
 import { ArrowRight, Github, Linkedin, Mail, Download } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { useTypewriter } from "@/hooks/useTypewriter";
+
+// CSS particle background component
+const ParticleBackground = () => {
+  const particles = Array.from({ length: 18 }, (_, i) => ({
+    id: i,
+    size: Math.random() * 40 + 10,
+    left: Math.random() * 100,
+    duration: Math.random() * 15 + 10,
+    delay: Math.random() * 10,
+    color: ["#4285f4", "#9c27b0", "#e91e63", "#ff5722", "#ff9800"][i % 5],
+  }));
+
+  return (
+    <div className="particle-container">
+      {particles.map((p) => (
+        <div
+          key={p.id}
+          className="particle"
+          style={{
+            width: p.size + "px",
+            height: p.size + "px",
+            left: p.left + "%",
+            background: p.color,
+            animationDuration: p.duration + "s",
+            animationDelay: p.delay + "s",
+          }}
+        />
+      ))}
+    </div>
+  );
+};
 
 export const Hero = () => {
+  const typedText = useTypewriter(
+    ["Visionary", "Entrepreneur", "Problem Solver", "AI Enthusiast"],
+    90,
+    2200
+  );
+
   const scrollToSection = (sectionId: string) => {
     const element = document.getElementById(sectionId);
     if (element) {
@@ -11,28 +49,34 @@ export const Hero = () => {
   };
 
   return (
-    <section id="home" className="min-h-screen flex items-center justify-center bg-white">
-      <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
+    <section id="home" className="min-h-screen flex items-center justify-center bg-white relative overflow-hidden">
+      <ParticleBackground />
+
+      <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-20 relative z-10">
         <div className="text-center">
           {/* Profile Image */}
           <div className="animate-fade-in mb-8">
-            <div className="w-32 h-32 mx-auto mb-6 rounded-full bg-gray-100 flex items-center justify-center overflow-hidden shadow-lg">
-              <img 
-                src="/profile.png" 
-                alt="Raj Mishra" 
+            <div className="w-32 h-32 mx-auto mb-6 rounded-full bg-gray-100 flex items-center justify-center overflow-hidden shadow-lg ring-4 ring-blue-100 hover:ring-blue-300 transition-all duration-300">
+              <img
+                src="/profile.png"
+                alt="Raj Mishra"
                 className="w-full h-full object-cover"
               />
             </div>
           </div>
 
           <div className="animate-fade-in">
-            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-normal text-gray-800 mb-6 leading-tight">
+            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-normal text-gray-800 mb-2 leading-tight">
               Hello, I'm{" "}
-              <span className="font-medium gradient-text">
-                Raj Mishra
-              </span>
+              <span className="font-medium gradient-text">Raj Mishra</span>
             </h1>
-            <p className="text-xl sm:text-2xl gradient-warmup mb-4 max-w-3xl mx-auto font-light">
+
+            {/* Typewriter role line */}
+            <p className="text-xl sm:text-2xl text-blue-600 font-medium mb-4 h-8">
+              <span className="typewriter-cursor">{typedText}</span>
+            </p>
+
+            <p className="text-lg sm:text-xl gradient-warmup mb-2 max-w-3xl mx-auto font-light">
               MCA Student at Manipal University Jaipur
             </p>
             <p className="text-lg text-gray-500 mb-12 max-w-2xl mx-auto leading-relaxed">
@@ -44,7 +88,7 @@ export const Hero = () => {
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
               <Button
                 onClick={() => scrollToSection("projects")}
-                className="gradient-button-hover bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 text-base font-medium rounded-lg shadow-sm hover:shadow-md transition-all duration-200 group"
+                className="gradient-button-hover glow-on-hover bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 text-base font-medium rounded-lg shadow-sm hover:shadow-md transition-all duration-200 group"
                 size="lg"
               >
                 View My Work
@@ -82,7 +126,7 @@ export const Hero = () => {
                 href="https://github.com/rajm5113"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="gradient-hover-bg text-gray-500 hover:text-gray-700 transition-colors p-2 rounded-lg"
+                className="gradient-hover-bg glow-on-hover text-gray-500 hover:text-gray-700 transition-colors p-2 rounded-lg"
               >
                 <Github size={24} />
               </a>
@@ -90,13 +134,13 @@ export const Hero = () => {
                 href="https://www.linkedin.com/in/raj-mishra-4ba018202/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="gradient-hover-bg text-gray-500 hover:text-gray-700 transition-colors p-2 rounded-lg"
+                className="gradient-hover-bg glow-on-hover text-gray-500 hover:text-gray-700 transition-colors p-2 rounded-lg"
               >
                 <Linkedin size={24} />
               </a>
               <a
                 href="mailto:raj1103mishra@gmail.com"
-                className="gradient-hover-bg text-gray-500 hover:text-gray-700 transition-colors p-2 rounded-lg"
+                className="gradient-hover-bg glow-on-hover text-gray-500 hover:text-gray-700 transition-colors p-2 rounded-lg"
               >
                 <Mail size={24} />
               </a>

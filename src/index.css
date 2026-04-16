@@ -199,10 +199,200 @@
   animation: fade-in 0.6s ease-out;
 }
 
+
 .delay-200 {
   animation-delay: 0.2s;
 }
 
 .delay-300 {
   animation-delay: 0.3s;
+}
+
+/* ============================================
+   SCROLL-TRIGGERED ANIMATIONS
+   ============================================ */
+.scroll-fade-up {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: opacity 0.7s ease-out, transform 0.7s ease-out;
+}
+.scroll-fade-up.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+.scroll-fade-left {
+  opacity: 0;
+  transform: translateX(-40px);
+  transition: opacity 0.7s ease-out, transform 0.7s ease-out;
+}
+.scroll-fade-left.visible {
+  opacity: 1;
+  transform: translateX(0);
+}
+.scroll-fade-right {
+  opacity: 0;
+  transform: translateX(40px);
+  transition: opacity 0.7s ease-out, transform 0.7s ease-out;
+}
+.scroll-fade-right.visible {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+/* Stagger children on scroll */
+.stagger-children > * {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+.stagger-children.visible > *:nth-child(1) { opacity: 1; transform: translateY(0); transition-delay: 0.05s; }
+.stagger-children.visible > *:nth-child(2) { opacity: 1; transform: translateY(0); transition-delay: 0.15s; }
+.stagger-children.visible > *:nth-child(3) { opacity: 1; transform: translateY(0); transition-delay: 0.25s; }
+.stagger-children.visible > *:nth-child(4) { opacity: 1; transform: translateY(0); transition-delay: 0.35s; }
+.stagger-children.visible > *:nth-child(5) { opacity: 1; transform: translateY(0); transition-delay: 0.45s; }
+.stagger-children.visible > *:nth-child(6) { opacity: 1; transform: translateY(0); transition-delay: 0.55s; }
+
+/* ============================================
+   TYPEWRITER CURSOR
+   ============================================ */
+.typewriter-cursor::after {
+  content: '|';
+  animation: blink 0.8s step-end infinite;
+  color: #4285f4;
+  font-weight: 300;
+}
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+/* ============================================
+   PARTICLE BACKGROUND (CSS-only)
+   ============================================ */
+.particle-container {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  pointer-events: none;
+}
+.particle {
+  position: absolute;
+  border-radius: 50%;
+  opacity: 0.15;
+  animation: floatParticle linear infinite;
+}
+@keyframes floatParticle {
+  0%   { transform: translateY(100vh) scale(0); opacity: 0; }
+  10%  { opacity: 0.2; }
+  90%  { opacity: 0.15; }
+  100% { transform: translateY(-100px) scale(1); opacity: 0; }
+}
+
+/* ============================================
+   3D CARD TILT
+   ============================================ */
+.tilt-card {
+  transform-style: preserve-3d;
+  transition: transform 0.15s ease-out, box-shadow 0.3s ease;
+}
+.tilt-card:hover {
+  box-shadow: 0 20px 60px rgba(66, 133, 244, 0.2);
+}
+
+/* ============================================
+   WAVE SECTION DIVIDER
+   ============================================ */
+.wave-divider {
+  line-height: 0;
+  overflow: hidden;
+}
+.wave-divider svg {
+  display: block;
+  width: 100%;
+}
+
+/* ============================================
+   DARK MODE SUPPORT
+   ============================================ */
+.dark body {
+  background-color: hsl(var(--background));
+  color: hsl(var(--foreground));
+}
+.dark .bg-white {
+  background-color: #0f0f0f !important;
+}
+.dark .bg-gray-50 {
+  background-color: #141414 !important;
+}
+.dark .bg-gray-100 {
+  background-color: #1a1a1a !important;
+}
+.dark .text-gray-800 {
+  color: #e5e5e5 !important;
+}
+.dark .text-gray-700 {
+  color: #d1d1d1 !important;
+}
+.dark .text-gray-600 {
+  color: #b0b0b0 !important;
+}
+.dark .text-gray-500 {
+  color: #909090 !important;
+}
+.dark .text-gray-900 {
+  color: #f0f0f0 !important;
+}
+.dark .border-gray-200 {
+  border-color: #2a2a2a !important;
+}
+.dark .border-gray-100 {
+  border-color: #1e1e1e !important;
+}
+.dark .shadow-md {
+  box-shadow: 0 4px 16px rgba(0,0,0,0.5) !important;
+}
+.dark nav {
+  background-color: rgba(10, 10, 10, 0.95) !important;
+}
+.dark footer {
+  background-color: #050505 !important;
+}
+
+/* Dark mode theme toggle button */
+.theme-toggle {
+  position: relative;
+  width: 44px;
+  height: 24px;
+  border-radius: 12px;
+  background: #e5e7eb;
+  transition: background 0.3s;
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+.dark .theme-toggle {
+  background: #4285f4;
+}
+.theme-toggle::after {
+  content: '';
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: white;
+  transition: transform 0.3s;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.2);
+}
+.dark .theme-toggle::after {
+  transform: translateX(20px);
+}
+
+/* ============================================
+   GRADIENT GLOW EFFECTS
+   ============================================ */
+.glow-on-hover:hover {
+  box-shadow: 0 0 20px rgba(66, 133, 244, 0.4), 0 0 40px rgba(156, 39, 176, 0.2);
+  transition: box-shadow 0.3s ease;
 }

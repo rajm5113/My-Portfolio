@@ -265,7 +265,7 @@ export const Projects = () => {
           {filteredProjects.map((project, index) => (
             <Card
               key={index}
-              className="tilt-card gradient-hover-bg border-0 shadow-md hover:shadow-lg transition-all duration-300 group"
+              className="tilt-card magnetic-glow gradient-hover-bg border-0 shadow-md hover:shadow-lg transition-all duration-300 group"
               onMouseMove={(e) => {
                 const card = e.currentTarget;
                 const rect = card.getBoundingClientRect();
@@ -275,7 +275,9 @@ export const Projects = () => {
                 const centerY = rect.height / 2;
                 const rotateX = ((y - centerY) / centerY) * -6;
                 const rotateY = ((x - centerX) / centerX) * 6;
-                card.style.transform = `perspective(800px) rotateX(${rotateX}deg) rotateY(${rotateY}deg) scale(1.02)`;
+                card.style.transform = "perspective(800px) rotateX(" + rotateX + "deg) rotateY(" + rotateY + "deg) scale(1.02)";
+                card.style.setProperty("--mouse-x", x + "px");
+                card.style.setProperty("--mouse-y", y + "px");
               }}
               onMouseLeave={(e) => {
                 e.currentTarget.style.transform = "perspective(800px) rotateX(0deg) rotateY(0deg) scale(1)";

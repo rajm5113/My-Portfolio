@@ -93,12 +93,26 @@
   }
 }
 
-/* Google-style gradient text */
+/* Google-style gradient text - ANIMATED FLOWING */
 .gradient-text {
-  background: linear-gradient(90deg, #4285f4 0%, #9c27b0 25%, #e91e63 50%, #ff5722 75%, #ff9800 100%);
+  background: linear-gradient(
+    90deg,
+    #4285f4 0%,
+    #9c27b0 20%,
+    #e91e63 40%,
+    #ff5722 60%,
+    #ff9800 80%,
+    #4285f4 100%
+  );
+  background-size: 200% auto;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
+  animation: flowGradient 4s linear infinite;
+}
+@keyframes flowGradient {
+  0%   { background-position: 0% center; }
+  100% { background-position: 200% center; }
 }
 
 .gradient-warmup {
@@ -139,6 +153,39 @@
 }
 
 .gradient-hover-bg > * {
+  position: relative;
+  z-index: 1;
+}
+
+/* ============================================
+   FLUID FILL CURSOR EFFECT ON CARDS
+   ============================================ */
+.magnetic-glow {
+  position: relative;
+  overflow: hidden;
+  --mouse-x: 50%;
+  --mouse-y: 50%;
+}
+.magnetic-glow::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(
+    800px circle at var(--mouse-x) var(--mouse-y),
+    rgba(66, 133, 244, 0.12) 0%,
+    rgba(156, 39, 176, 0.08) 25%,
+    rgba(233, 30, 99, 0.05) 50%,
+    transparent 70%
+  );
+  opacity: 0;
+  transition: opacity 0.4s ease;
+  pointer-events: none;
+  z-index: 0;
+}
+.magnetic-glow:hover::after {
+  opacity: 1;
+}
+.magnetic-glow > *:not(.glow-spot) {
   position: relative;
   z-index: 1;
 }

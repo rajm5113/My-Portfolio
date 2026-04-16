@@ -8,6 +8,7 @@ import { Services } from "@/components/Services";
 import { Contact } from "@/components/Contact";
 import { Navigation } from "@/components/Navigation";
 import { Footer } from "@/components/Footer";
+import { Chatbot } from "@/components/Chatbot";
 
 const Index = () => {
   useEffect(() => {
@@ -50,6 +51,7 @@ const Index = () => {
         <Contact />
       </main>
       <Footer />
+      <Chatbot />
     </div>
   );
 };

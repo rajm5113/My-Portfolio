@@ -225,7 +225,7 @@ export const Projects = () => {
     },
   ];
 
-  const categories = ["All", "Data Science", "Marketing", "Entrepreneurship/Business", "Finance", "AI/ML", "Web Development"];
+  const categories = ["All", "Data Science", "AI/ML", "Marketing", "Entrepreneurship/Business", "Finance", "Web Development"];
 
   const filteredProjects = activeFilter === "All" 
     ? projects 

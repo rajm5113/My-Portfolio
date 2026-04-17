@@ -230,6 +230,71 @@
   z-index: 1;
 }
 
+/* ============================================
+   PURE BACKGROUND GLOW SHADOWS — NO SHAPE CHANGES
+   ============================================ */
+
+/* All buttons — only shadow, zero movement */
+button:hover {
+  box-shadow: 0 0 16px rgba(66, 133, 244, 0.30), 0 4px 18px rgba(66, 133, 244, 0.15);
+  transition: box-shadow 0.25s ease;
+}
+
+/* Primary blue buttons */
+.bg-blue-600:hover {
+  box-shadow: 0 0 22px rgba(37, 99, 235, 0.50), 0 6px 22px rgba(37, 99, 235, 0.25);
+  transition: box-shadow 0.25s ease;
+}
+
+/* Outline buttons */
+button[class*="outline"]:hover {
+  box-shadow: 0 0 14px rgba(156, 39, 176, 0.28), 0 4px 14px rgba(156, 39, 176, 0.15);
+  transition: box-shadow 0.25s ease;
+}
+
+/* Cards & grid tiles — ambient glow behind, no lifting */
+.magnetic-glow:hover {
+  box-shadow:
+    0 0 32px rgba(66, 133, 244, 0.14),
+    0 8px 36px rgba(0, 0, 0, 0.10);
+  transition: box-shadow 0.3s ease;
+}
+
+/* Green buttons */
+.bg-green-600:hover {
+  box-shadow: 0 0 20px rgba(22, 163, 74, 0.45), 0 4px 16px rgba(22, 163, 74, 0.22);
+  transition: box-shadow 0.25s ease;
+}
+
+/* Purple buttons */
+.bg-purple-600:hover {
+  box-shadow: 0 0 20px rgba(147, 51, 234, 0.45), 0 4px 16px rgba(147, 51, 234, 0.22);
+  transition: box-shadow 0.25s ease;
+}
+
+/* Pink buttons */
+.bg-pink-600:hover {
+  box-shadow: 0 0 20px rgba(219, 39, 119, 0.45), 0 4px 16px rgba(219, 39, 119, 0.22);
+  transition: box-shadow 0.25s ease;
+}
+
+/* Sky/LinkedIn buttons */
+.bg-sky-600:hover {
+  box-shadow: 0 0 20px rgba(14, 165, 233, 0.45), 0 4px 16px rgba(14, 165, 233, 0.22);
+  transition: box-shadow 0.25s ease;
+}
+
+/* Dark mode — slightly stronger glow */
+.dark button:hover {
+  box-shadow: 0 0 22px rgba(99, 102, 241, 0.40), 0 4px 18px rgba(99, 102, 241, 0.22);
+}
+.dark .magnetic-glow:hover {
+  box-shadow:
+    0 0 36px rgba(99, 102, 241, 0.20),
+    0 8px 36px rgba(0, 0, 0, 0.30);
+}
+
+
 /* Google-style animations */
 @keyframes fade-in {
   from {

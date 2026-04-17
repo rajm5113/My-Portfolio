@@ -91,6 +91,14 @@ export const Projects = () => {
       github: "https://github.com/rajm5113/MediMind"
     },
     {
+      title: "MediAssist Agent",
+      description: "AI-powered medical assistant built with LangChain for effortless information retrieval from PubMed articles. Features domain flexibility for extensible knowledge retrieval across various medical disciplines.",
+      image: "/lovable-uploads/mediassist-agent.png",
+      technologies: ["LangChain", "Python", "PubMed API", "LLMs", "Information Retrieval"],
+      category: "AI/ML",
+      github: "https://github.com/rajm5113/mediassist-agent.git"
+    },
+    {
       title: "Emotion Detection Web-Application",
       description: "AI-powered web application that detects emotions from facial expressions using machine learning",
       image: "/lovable-uploads/92310693-614f-4a1d-861f-7d2812fb0bbd.png",

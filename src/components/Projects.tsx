@@ -243,7 +243,7 @@ export const Projects = () => {
     },
   ];
 
-  const categories = ["All", "Data Science", "AI/ML", "Marketing", "Entrepreneurship/Business", "Finance", "Web Development"];
+  const categories = ["All", "Data Science", "AI/ML", "Marketing", "Entrepreneurship/Business", "Web Development"];
 
   const filteredProjects = activeFilter === "All" 
     ? projects 

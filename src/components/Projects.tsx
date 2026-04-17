@@ -82,6 +82,15 @@ export const Projects = () => {
       demo: "https://project5-demo.com"
     },
     {
+      title: "MediMind Medical AI Assistant",
+      description: "Medical AI Assistant | Fine-tuned Phi-2 + QLoRA + DPO + RAG. Warning: Educational information only. NOT a substitute for professional medical advice. Always consult a licensed physician.",
+      image: "/lovable-uploads/medimind-thumbnail.png",
+      technologies: ["Phi-2", "QLoRA", "DPO", "RAG", "FAISS", "Gradio"],
+      category: "AI/ML",
+      demo: "https://huggingface.co/spaces/raj5113/medimind",
+      github: "https://github.com/rajm5113/MediMind"
+    },
+    {
       title: "Emotion Detection Web-Application",
       description: "AI-powered web application that detects emotions from facial expressions using machine learning",
       image: "/lovable-uploads/92310693-614f-4a1d-861f-7d2812fb0bbd.png",
@@ -358,7 +367,18 @@ export const Projects = () => {
                     {project.category}
                   </Badge>
                 </div>
-                <p className="text-gray-600 text-sm">{project.description}</p>
+                <div className="text-gray-600 text-sm">
+                  {project.description.includes("Warning:") ? (
+                    <>
+                      {project.description.split("Warning:")[0]}
+                      <div className="mt-2 p-2 bg-red-50 border-l-4 border-red-500 rounded text-red-700 italic">
+                        <span className="font-bold">Warning:</span> {project.description.split("Warning:")[1]}
+                      </div>
+                    </>
+                  ) : (
+                    project.description
+                  )}
+                </div>
               </CardHeader>
               <CardContent className="pt-0">
                 <div className="flex flex-wrap gap-2 mb-4">

@@ -96,6 +96,7 @@ export const Projects = () => {
       image: "/lovable-uploads/mediassist-agent.png",
       technologies: ["LangChain", "Python", "PubMed API", "LLMs", "Information Retrieval"],
       category: "AI/ML",
+      demo: "https://share.streamlit.io/rajm5113/mediassist-agent/main/ui/app.py",
       github: "https://github.com/rajm5113/mediassist-agent.git"
     },
     {

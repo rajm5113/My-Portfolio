@@ -123,7 +123,7 @@ export const Projects = () => {
       image: "/lovable-uploads/startup-simulation-ioi.png",
       technologies: ["Retail Management", "Sales Strategy", "Financial Tracking", "Inventory Management", "Customer Engagement", "Product Analysis"],
       category: "Entrepreneurship/Business",
-      pptUrl: "https://drive.google.com/file/d/1081rU6FfuDkE8wPDfg3AN69q4mlAL4R0/view?usp=sharing",
+      pptUrl: "https://drive.google.com/file/d/1iyKZ0LVpxBNf2L-j8GTeHCBMQoj7Vb5z/view?usp=sharing",
       financeUrl: "https://docs.google.com/spreadsheets/d/1AcKhdIoTgY-0GTaGxZHOnYyyrPzrhi4E/edit?usp=sharing&ouid=104718452063063399362&rtpof=true&sd=true"
     },
     {

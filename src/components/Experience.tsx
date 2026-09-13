@@ -3,6 +3,22 @@ import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 
 const experiences = [
   {
+    title: "Business Analyst – Revenue Operations (Intern)",
+    company: "Payoneer",
+    period: "Jun 2025 – Present",
+    location: "Bengaluru, India",
+    type: "Internship",
+    color: "from-indigo-500 to-cyan-500",
+    badgeColor: "bg-indigo-100 text-indigo-700",
+    highlights: [
+      "Own acquisition-funnel control dashboards in **Power BI** tracking Registrations, Conversion Rate, Take Rate, AVPU, Retention, and Lead Score by month and region (**APAC, EMEA, Greater China, LATAM**), giving sales and leadership a single source of truth for pipeline health.",
+      "Query and model a **130 MB+ granular acquisition dataset** (millions of rows) across BigQuery and Power BI, engineering semantic models with star & snowflake schema, relationship cardinality, and DAX measures to slice performance by region, payer status, and marketing attribution.",
+      "Built Actual-vs-Target (AvT) variance analysis by entity to expose where regions and cohorts miss plan, and modeled recurring vs non-recurring revenue streams to turn raw funnel data into decision-ready insight for RevOps stakeholders.",
+      "Designed and deployed agentic AI solutions on the company’s enterprise LLM gateway (TrueFoundry; Claude Opus/Sonnet and OpenAI GPT-4o), including an Asana-integrated task-triage assistant and dashboard-analysis agents that flag anomalies and generate funnel insights.",
+      "Automate recurring monthly funnel reporting with Power Automate and Microsoft 365, and connect BigQuery to AI assistants via MCP for conversational data operations and standardized metric definitions.",
+    ],
+  },
+  {
     title: "Influencer Marketing Analyst Intern",
     company: "Clipwise (Startup)",
     period: "Dec 2025 – Feb 2026",

@@ -56,46 +56,28 @@ export const Chatbot = () => {
     setIsLoading(true);
 
     try {
-      const apiKey = import.meta.env.VITE_GROQ_API_KEY;
-
-      if (!apiKey) {
-        setMessages((prev) => [
-          ...prev,
-          {
-            role: "assistant",
-            content: "Error: Groq API Key is missing. Please add VITE_GROQ_API_KEY to your .env.local file.",
-          },
-        ]);
-        setIsLoading(false);
-        return;
-      }
-
       const apiMessages = [
         { role: "system", content: SYSTEM_PROMPT },
         ...messages.filter((m) => m.role !== "system").map((m) => ({ role: m.role, content: m.content })),
         { role: "user", content: userMessage },
       ];
 
-      const response = await fetch("https://api.groq.com/openai/v1/chat/completions", {
+      const response = await fetch("/api/chat", {
         method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-          Authorization: "Bearer " + apiKey,
-        },
-        body: JSON.stringify({
-          model: "llama-3.3-70b-versatile",
-          messages: apiMessages,
-          temperature: 0.7,
-          max_tokens: 500,
-        }),
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ messages: apiMessages }),
       });
 
       if (!response.ok) {
-        throw new Error("Network response was not ok");
+        throw new Error("Chatbot request failed");
       }
 
       const data = await response.json();
-      const botReply = data.choices[0].message.content;
+      const botReply = data.content;
+
+      if (typeof botReply !== "string") {
+        throw new Error("Chatbot returned an invalid response");
+      }
 
       setMessages((prev) => [...prev, { role: "assistant", content: botReply }]);
     } catch (error) {
